@@ -71,3 +71,29 @@
   .centre-item{
     padding-left: 75px;
   }
+
+  footer{
+    background-color: #4D4D4D;
+    color: #EFEFEF;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  a[href^="tel:"] {
+    color: #EFEFEF;
+    text-decoration: none;
+  }
+
+  a[href^="mailto:"] {
+    color: #EFEFEF;
+    text-decoration: none;
+  }
+
+  footer #footer-address{
+    margin-top: -15px;
+    margin-bottom: 0px;
+  }
+
+  footer #footer-clubname{
+    padding-top: 20px;
+  }
