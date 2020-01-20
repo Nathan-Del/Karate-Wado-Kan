@@ -1,18 +1,30 @@
 .kata-centre{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 2.1vh;
   }
 
   .kata-info{
     text-align: left;
   /* width: 100%; */
-  width: 570px;
+  width: 60.8vh;
   /* border: 15px solid green; */
-  padding: 50px;
-  margin: 60px;
+  padding: 5.3vh;
+  margin: 6.4vh;
   margin-left: auto;
   margin-right: auto;
   border-radius: 3.35rem;
   background-color: #ED9564;
   color: #EFEFEF;
+  }
+
+  center{
+    position: relative; 
+    overflow: hidden; 
+  }
+
+  iframe{
+    top: 0; 
+    left: 0; 
+    width: 60%; 
+    border: 0; 
   }

@@ -1,0 +1,38 @@
+#logo-title{
+    width: 45%;
+}
+
+.colonne{
+    float: left;
+    width: 47%;
+    padding: 10px;
+}
+
+hr{ 
+  
+    border: none;
+    border-left: 1px solid hsla(200, 10%, 50%,100);
+    height: 100vh;
+    width: 1px;       
+}
+
+.sport{
+    margin-top: -103vh;
+    margin-left: 50vw;
+    position: absolute;
+}
+
+
+@media screen and (max-width:930px) {
+    .colonne {
+      width: 100%;
+    }
+    .sport{
+        margin-top: 0;
+        margin-left: 0;
+        position: static;
+    }
+    hr{
+        display: none;
+    }
+  }

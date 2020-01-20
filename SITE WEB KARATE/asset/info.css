@@ -1,0 +1,14 @@
+#image-tarif{
+  margin: 3.2vh;
+  border: 0.5vh double;
+  width: 50%;
+}
+
+.info{
+  text-align: left;
+  width: 57.8vh;
+  margin: 1.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3.35rem;
+}

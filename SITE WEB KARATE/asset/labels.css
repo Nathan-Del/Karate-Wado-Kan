@@ -1,0 +1,112 @@
+.label-center{
+    text-align: center;
+    padding-top: 2.1vh;
+}
+
+.label-text{
+    text-align: left;
+    /*Pour le responsive*/
+    width: 72.86464361326746vw;
+    padding: 5.3vh;
+    margin: 6.4vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3.35rem;
+    background-color: #ED9564;
+    color: #EFEFEF;
+}
+
+.label-img{
+    padding-top: 8.000885vw;
+    max-width: 8%;
+    vertical-align: middle;
+    max-height: 8%;
+    margin-right: 16.179672vw;
+}
+
+/*Ajustement taille entre nav interne et img pour label santé*/
+#img-sante{
+    padding-top: 4.000885vw;
+}
+
+#titre{
+    margin-bottom: 6.40vh;
+}
+
+/*Pour le label santé*/
+.label-section{
+    text-align: center;
+    padding-top: 2.48890625vw;
+    margin-left: 16vh;
+    margin-bottom: -7.5vw;
+}
+
+/*Pour le label cancer*/
+.label-section2{
+    text-align: center;
+    padding-top: 4.976927vw;
+    margin-left: 14vh;
+    margin-bottom: -9.8vh;
+    margin-bottom: -14.291031vw;
+}
+
+.logo-label{
+    margin-top: -8.54vh;
+    margin-left: 10.7vh;
+}
+
+#doudou{
+    width: 20%;
+}
+
+
+/*ONGLET */
+/* Navigation */
+#tab-nav {
+    /* Suppression des marges internes et externes */
+    margin: 0px ;
+    padding: 0px ;
+    /* Décalage pour masquer la bordure du contenu */
+    position: relative ;
+    bottom: -1px ;
+    /*center*/
+    text-align: center;
+    list-style: inside;
+  }
+  #tab-nav li {
+    /* Affichage des éléments du menu côte à côte */
+    display: inline-block ;
+  }
+  /* Aspect des onglets inactifs (par défaut) */
+  #tab-nav a {
+    display: block ;
+    border: 1px solid #cccccc ;
+    border-width: 1px 1px 0 1px ;
+    padding: 10px 5px ;
+    border-radius: 5px 5px 0 0 ;
+    /*background-color: #cccccc ;*/
+  }
+  /* Effet de survol sur les onglets */
+  #tab-nav a:hover {
+      background-color: #D30B20 ;
+      text-decoration: none;
+  }
+  /* Aspect des onglets actifs */
+  #tab-nav .tab-nav-active {
+      background-color: #4d4d4d ;
+  }
+  /* Contenu des onglets */
+  .tab {
+      /* Masquage des onglets*/
+      display: none ;
+      border: 1px solid white ;
+      padding-left: 9.6vh;
+  }
+  /* Affichage du contenu actif */
+  .tab-active {
+      display: block ;
+  }
+
+  section ul {
+    margin-top: 4.2vh;
+  }

@@ -1,178 +1,341 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--CSS-->
-    <link href="asset/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!--JS-->
-
-    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" async integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <!--CSS-->
+  <link rel="stylesheet" href="../SITE WEB KARATE/bootstrap-4.3.1/css/bootstrap.css">
+  <link rel="stylesheet" href="../SITE WEB KARATE/asset/app.css">
+  <link rel="stylesheet" href="../SITE WEB KARATE/asset/sensei.css">
+  <!--JS-->
+  <script async src="../SITE WEB KARATE/bootstrap-4.3.1/js/bootstrap.js"></script>
+  <script async src="../SITE WEB KARATE/asset/app.js"></script>
     <title>Senseis</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="acceuil.html">Acceuil</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="Apropos.html">A propos <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="Senseis.html">Senseis</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Label
+  <header>
+    <h1 style="text-align: center; font-size: 2vw;"><img id="logo" src="../SITE WEB KARATE/asset/img/Logo USMBM Wado Kan.jpg" alt="logo usmb wado-kan" width="42" height="42">USMBM Wado-Kan (Karaté Montsoult, Baillet-en-France, Maffliers)<img id="logo" src="../SITE WEB KARATE/asset/img/Logo USMBM Wado Kan.jpg" alt="logo usmb wado-kan" width="42" height="42"></h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" class="back-color" data-toggle="sticky-onscroll">
+        <!--Important pour le responsive-->
+        <a class="navbar-brand" href="../SITE WEB KARATE/acceuil-Mathieu.html">Acceuil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDD" aria-controls="navbarDD" aria-expanded="false" aria-label="Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarDD">
+            <ul class="navbar-nav bg-primary mx-auto">
+                <li class="nav-item bg-primary dropdown">
+                    <a class="nav-link dropdown-toggle" id="aprop-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        A propos
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="/Label/SportSante.html">Sport Santé</a>
-                      <a class="dropdown-item" href="/Label/SportCancer.html">Sport Cancer</a>                          
-                      <a class="dropdown-item" href="/Label/BodyKarate.html">Body Karaté</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Glossaire.html">Glossaire</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Karaté Kids
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="KarateKids/Ceinture.html">Nouez sa ceinture</a>
-                      <a class="dropdown-item" href="KarateKids/CodeMoral.html">Code moral du karaté</a>
-                      <a class="dropdown-item" href="KarateKids/Quizz.html">Quizz</a>
-                    </div>
-                  </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Infos.html">Informations</a>
-                </li>
-                
-                    <ul class="nav navbar-nav">
-                      <li class="dropdown dropdown-large">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Techniques </a>
-                        
-                        <ul class="dropdown-menu dropdown-menu-large row">
-                          <li class="col-sm-4">
-                            <ul>
-                              <li class="dropdown-header">Katas</li>
-                              <li><a class="dropdown-item" href="Katas/pinanNidan.html">Pinan Nidan</a></li>
-                              <li><a class="dropdown-item" href="Katas/pinanShodan.html">Pinan Shodan</a></li>
-                              <li><a class="dropdown-item" href="Katas/pinanSandan.html">Pinan Sandan</a></li>
-                              <li><a class="dropdown-item" href="Katas/pinanYodan.html">Pinan Yodan</a></li>
-                              <li><a class="dropdown-item" href="Katas/pinanGodan.html">Pinan Godan</a></li>
-                              <li><a class="dropdown-item" href="Katas/NaiHanchi.html">NaiHanchi</a></li>
-                              <li><a class="dropdown-item" href="Katas/Bassai.html">Bassai</a></li>
-                              <li><a class="dropdown-item" href="Katas/Kushanku.html">Kushanku</a></li>
-                              <li><a class="dropdown-item" href="Katas/Jion.html">Jion</a></li>
-                              <li><a class="dropdown-item" href="Katas/Wanshu.html">Wanshu</a></li>
-                              <li><a class="dropdown-item" href="Katas/Seishan.html">Seishan</a></li>
-                              <li><a class="dropdown-item" href="Katas/Chinto.html">Chinto</a></li>
-                              <li><a class="dropdown-item" href="Katas/Jitte.html">Jitte</a></li>
-                              <li><a class="dropdown-item" href="Katas/Niseishi.html">Niseishi</a></li>
-                              <li><a class="dropdown-item" href="Katas/Rohai.html">Rohai</a></li>
-                            </ul>
-                          </li>
-                          
-                          <li class="col-sm-4">
-                            <ul>
-                                <li class="dropdown-header">Kihon Kumite</li>
-                                <li><a class="dropdown-item" href="KihonKumite/KihonKumiteN1.html">Kihon Kumite N°1</a></li>
-                                <li><a class="dropdown-item" href="KihonKumite/KihonKumiteN2.html">Kihon Kumite N°2</a></li>
-                                <li><a class="dropdown-item" href="KihonKumite/KihonKumiteN3.html">Kihon Kumite N°3</a></li>
-                                <li><a class="dropdown-item" href="KihonKumite/KihonKumiteN4.html">Kihon Kumite N°4</a></li>
-                                <li><a class="dropdown-item" href="KihonKumite/KihonKumiteN5.html">Kihon Kumite N°5</a></li>
-                                <li><a class="dropdown-item" href="KihonKumite/KihonKumiteN6.html">Kihon Kumite N°6</a></li>
-                                <li><a class="dropdown-item" href="KihonKumite/KihonKumiteN7.html">Kihon Kumite N°7</a></li>
-                                <li><a class="dropdown-item" href="KihonKumite/KihonKumiteN8.html">Kihon Kumite N°8</a></li>
-                                <li><a class="dropdown-item" href="KihonKumite/KihonKumiteN9.html">Kihon Kumite N°9</a></li>
-                                <li><a class="dropdown-item" href="KihonKumite/KihonKumiteN10.html">Kihon Kumite N°10</a></li>
-                            </ul>
-                          </li>
-                          <li class="col-sm-4">
-                            <ul>
-                                <li class="dropdown-header">Tanto Dori</li>
-                                <li><a class="dropdown-item" href="TantoDori/TantoDoriN1.html">TantoDori N°1</a></li>
-                                <li><a class="dropdown-item" href="TantoDori/TantoDoriN2.html">TantoDori N°2</a></li>
-                                <li><a class="dropdown-item" href="TantoDori/TantoDoriN3.html">TantoDori N°3</a></li>
-                                <li><a class="dropdown-item" href="TantoDori/TantoDoriN4.html">TantoDori N°4</a></li>
-                                <li><a class="dropdown-item" href="TantoDori/TantoDoriN5.html">TantoDori N°5</a></li>
-                                <li><a class="dropdown-item" href="TantoDori/TantoDoriN6.html">TantoDori N°6</a></li>
-                                <li><a class="dropdown-item" href="TantoDori/TantoDoriN7.html">TantoDori N°7</a></li>
-                                <li><a class="dropdown-item" href="TantoDori/TantoDoriN8.html">TantoDori N°8</a></li>
-                                <li><a class="dropdown-item" href="TantoDori/TantoDoriN9.html">TantoDori N°9</a></li>
-                                <li><a class="dropdown-item" href="TantoDori/TantoDoriN10.html">TantoDori N°10</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
+                    <ul class="dropdown-menu bg-primary">
+                        <li><a class="dropdown-item sous-aprop-hover" href="#">Histoire du Club</a></li>
+                        <li><a class="dropdown-item sous-aprop-hover" href="../SITE WEB KARATE/Senseis.html">Equipe pédagogique</a></li>
+                        <li><a class="dropdown-item sous-aprop-hover" href="../SITE WEB KARATE/LabelCancer.html">Labels</a></li>
                     </ul>
-                  </div>
-                  </div>
-              </ul>
-            </div>
-          </nav>
-      </header>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="info-hover" href="../SITE WEB KARATE/Infos.html">Horaires et Tarifs<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="technique-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Fiches Techniques
+                    </a>
+                    <ul class="dropdown-menu bg-primary">
+                        <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Katas</a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/pinanNidan.html">Pinan Nidan</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/pinanShodan.html">Pinan Shodan</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/pinanSandan.html">Pinan Sandan</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/pinanYodan.html">Pinan Yodan</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/pinanGodan.html">Pinan Godan</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/NaiHanchi.html">NaiHanchi</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Bassai.html">Bassai</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Kushanku.html">Kushanku</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Jion.html">Jion</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Wanshu.html">Wanshu</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Seishan.html">Seishan</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Chinto.html">Chinto</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Jitte.html">Jitte</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Niseishi.html">Niseishi</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Rohai.html">Rohai</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Kihon Kumite</a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN1.html">Kihon Kumite N°1</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN2.html">Kihon Kumite N°2</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN3.html">Kihon Kumite N°3</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN4.html">Kihon Kumite N°4</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN5.html">Kihon Kumite N°5</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN6.html">Kihon Kumite N°6</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN7.html">Kihon Kumite N°7</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN8.html">Kihon Kumite N°8</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN9.html">Kihon Kumite N°9</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN10.html">Kihon Kumite N°10</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Tanto Dori</a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN1.html">TantoDori N°1</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN2.html">TantoDori N°2</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN3.html">TantoDori N°3</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN4.html">TantoDori N°4</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN5.html">TantoDori N°5</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN6.html">TantoDori N°6</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN7.html">TantoDori N°7</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN8.html">TantoDori N°8</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN9.html">TantoDori N°9</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN10.html">TantoDori N°10</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item sous-tech-hover" href="../SITE WEB KARATE/Glossaire.html">Lexique</a></li>
+                        <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Coin des karatés kids</a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a class="dropdown-item sous-kids-hover" href="../SITE WEB KARATE/KarateKids/Ceinture.html">Nouer sa ceinture</a></li>
+                                <li><a class="dropdown-item sous-kids-hover" href="../SITE WEB KARATE/KarateKids/CodeMoral.html">Code Moral</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" Labid="grade-hover" href="../SITE WEB KARATE/GradeFormation.html">Grades et Formations<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="competition-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Compétitions
+                    </a>
+                    <ul class="dropdown-menu bg-primary">
+                        <li><a class="dropdown-item sous-compet-hover" href="#">Calendrier</a></li>
+                        <li><a class="dropdown-item dropdown-toggle sous-compet-hover" href="#">Résultats Sportifs</a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a class="dropdown-item sous-result-hover" href="#">Coupe des 16 et 17</a></li>
+                                <li><a class="dropdown-item sous-result-hover" href="#">Championnats du Val</a></li>
+                                <li><a class="dropdown-item sous-result-hover" href="#">Coupe  Ile de France Wado</a></li>
+                                <li><a class="dropdown-item sous-result-hover" href="#">Coupe de Val d'Oise</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="galerie-hover" href="#">Galerie<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-hover" href="../SITE WEB KARATE/Apropos.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
     <main>
-      <h4>Notre Equipe</h4>
-      <ul>
-        <li>
-          <h6>Xavier Dugauquier</h6>
-          <img src="asset/img/Xavier.jpg" alt="Xavier Dugauquier">
-          <p><strong>Ceinture Noire 6eme DAN
-              DEJEPS - Arbitre National</strong></p>
-          <p>Jury d'examen 1er, 2eme, 3eme, 4eme et 5eme DAN</p>
-        </li>
-        <li>
-            <h6>Céline Dugauquier</h6>
-            <img src="asset/img/Celine.jpg" alt="Céline Dugauquier">
-            <p><strong>Ceinture Noire 5eme DAN
-                DESJEPS BEESAPT</strong></p>
-                <p>Jury d'examen 1er 2eme et 3eme DAN</p>
-        </li>
-        <li>
-            <h6>Cédric SIOUSSARAN</h6>
-            <img src="asset/img/Cedric Siousaran.png" alt="Cédric SIOUSSARAN">
-            <p><strong>Ceinture Noire 4eme DAN
-                BEES 2eme degré</strong></p>
-        </li>
-        <li>
-            <h6>Guy Bruchet</h6>
-            <img src="asset/img/Gui Bruchet.jpg" alt="Guy Bruchet">
-            <p><strong>Ceinture Noire 4eme DAN
-                Instructeur Fédéral</strong></p>
-        </li>
-        <li>
-            <h6>Rui Martins</h6>
-            <img src="asset/img/Ruy Martins.png" alt="Rui Martins">
-            <p><strong>Ceinture noire 3eme DAN
-                Instructeur Fédéral</strong></p>
-        </li>
-        <li>
-            <h6>Ludovic Randon</h6>
-            <img src="asset/img/Ludovic Randon.jpg" alt="Ludovic Randon">
-            <p><strong>Ceinture Noire 3eme DAN
-                Instructeur Fédéral</strong></p>
-        </li>
-        <li>
-            <h6>Quentin Randon</h6>
-            <img src="asset/img/Quentin Randon.jpg" alt="Quentin Randon">
-            <p><strong>Ceinture Noire 2eme DAN
-                Diplôme d'Animateur Fédéral</strong></p>
-        </li>
-      </ul>
+      <!-- Team -->
+      <section id="team" class="pb-5">
+        <div class="container">
+            <h5 class="section-title h1">L'équipe pédagogique</h5>
+            <div class="row">
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4 team-block">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="../SITE WEB KARATE/asset/img/Xavier.jpg" alt="Xavier Dugauquier"></p>
+                                        <h4 class="card-title">Xavier Dugauquier</h4>
+                                        <p class="card-text">Ceinture Noire 6e DAN
+                                          DEJEPS - Arbitre National</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Président du Club</h4>
+                                        <br>
+                                        <p class="card-text">Jury d'examen 1er, 2eme, 3eme, 4eme et 5eme DAN</p>
+                                        <br>
+                                        <p class="card-text">Arbitre WIKF (Wado Inter Karate-do Fédération</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4 team-block">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="../SITE WEB KARATE/asset/img/Celine.jpg" alt="Céline Dugauquier"></p>
+                                        <h4 class="card-title">Céline Dugauquier</h4>
+                                        <p class="card-text">Ceinture Noire 5e DAN
+                                          DESJEPS - BEESAPT</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Sensei</h4>
+                                        <br>
+                                        <p class="card-text">Jury d'examen 1er 2eme et 3eme DAN</p>
+                                        <br>
+                                        <p class="card-text">Jury d'éxamen 4e DAN</p>
+                                        <br>
+                                        <p class="card-text">Internationale WIKF (Wado Inter Karate-do Fédération</p>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4 team-block">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="../SITE WEB KARATE/asset/img/Cedric Siousaran.png" alt="Cédric SIOUSARAN"></p>
+                                        <h4 class="card-title">Cédric SIOUSARAN</h4>
+                                        <p class="card-text">Ceinture Noire 4eme DAN
+                                            BEES 2eme degré</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title back-center-title">Conseiller technique du Val d'Oise</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4 team-block">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="../SITE WEB KARATE/asset/img/Gui Bruchet.jpg" alt="Guy Bruchet"></p>
+                                        <h4 class="card-title">Guy Bruchet</h4>
+                                        <p class="card-text">Ceinture Noire 4eme DAN
+                                            Instructeur Fédéral</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title back-center-title">Secrétaire</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4 team-block">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="../SITE WEB KARATE/asset/img/Ruy Martins.png" alt="Rui Martins"></p>
+                                        <h4 class="card-title">Rui Martins</h4>
+                                        <p class="card-text">Ceinture noire 3eme DAN
+                                            Instructeur Fédéral</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title back-center-title">CQP - Instructeur Féderal</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4 team-block">
+                    
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="../SITE WEB KARATE/asset/img/Ludovic Randon.jpg" alt="Ludovic Randon"></p>
+                                        <h4 class="card-title">Ludovic Randon</h4>
+                                        <p class="card-text">Ceinture Noire 3eme DAN
+                                            Instructeur Fédéral</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4 team-block">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="../SITE WEB KARATE/asset/img/Quentin Randon.jpg" alt="Quentin Randon"></p>
+                                        <h4 class="card-title">Quentin Randon</h4>
+                                        <p class="card-text">Ceinture Noire 2eme DAN
+                                            Diplôme d'Animateur Fédéral</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title back-center-title">Animateur Féderal</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+            </div>
+        </div>
+      </section>
+      <!-- Team -->
     </main>
     <footer>
-
+      <p id="footer-clubname" >USMBM Wado-Kan (Karaté Montsoult, Baillet-en-France, Maffliers)</p>
+      <p id="footer-address" >18 rue de Pontoise sous sol de la salle polyvalente</p>
+      
+      <a href="tel:+33 6 61 59 01 80">06 61 59 01 80</a>
+      <br>
+      <a href="mailto:karate.montsoult@gmail.com">karate.montsoult@gmail.com</a>
+      <br>
+      <br>
+      <div class="footer-copyright text-center py-3">
+        © 2019 USMBM Wado-Kan: Tous droit réservés.
+      </div>
     </footer>
 </body>
 </html>

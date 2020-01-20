@@ -1,0 +1,102 @@
+/* Navigation */
+#tab-nav {
+    /* Suppression des marges internes et externes */
+    margin: 0px ;
+    padding: 0px ;
+    /* Décalage pour masquer la bordure du contenu */
+    position: relative ;
+    bottom: -1px ;
+  }
+  #tab-nav li {
+    /* Affichage des éléments du menu côte à côte */
+    display: inline-block ;
+  }
+  /* Aspect des onglets inactifs (par défaut) */
+  #tab-nav a {
+    display: block ;
+    border: 1px solid #cccccc ;
+    border-width: 1px 1px 0 1px ;
+    padding: 10px 5px ;
+    border-radius: 5px 5px 0 0 ;
+    /*background-color: #cccccc ;*/
+  }
+  /* Effet de survol sur les onglets */
+  #tab-nav a:hover {
+      background-color: #D30B20 ;
+  }
+  /* Aspect des onglets actifs */
+  #tab-nav .tab-nav-active {
+      background-color: #4d4d4d ;
+  }
+  /* Contenu des onglets */
+  .tab {
+      /* Masquage des onglets*/
+      display: none ;
+      border: 1px solid white ;
+      padding-left: 9.6vh;
+  }
+  /* Affichage du contenu actif */
+  .tab-active {
+      display: block ;
+  }
+
+  #onglet-nav1{
+    background-color: #cccccc;
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+
+  #onglet-nav2{
+    background-color: #cccccc;
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+
+  #onglet-nav3{
+    background-color: #cccccc;
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+
+  #onglet-nav4{
+    background-color: #cccccc;
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+  #onglet-nav5{
+    background-color: #cccccc;
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+  #onglet-nav6{
+    background-color: #cccccc;
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+  #onglet-nav7{
+    background-color: #cccccc;
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+  #onglet-nav8{
+    background-color: #cccccc;
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 0.5s;
+  }
+
+  #title{
+    text-align: center;
+    padding-top: 2.1vh;
+  }
+
+  section ul {
+    margin-top: 4.2vh;
+  }

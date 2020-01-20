@@ -7,7 +7,7 @@
   .dropdown-submenu>.dropdown-menu {
       top:0;
       left:100%;
-      margin-top:-6px;
+      margin-top:-0.64vh;
   }
 
   /* rotate caret on hover */
@@ -37,7 +37,7 @@
 
   .nav-item{
     border-radius: 0.35rem;
-    font-size: 20px;
+    font-size: 2.1vh;
   }
 
   .dropdown-menu{
@@ -64,19 +64,26 @@
   }
 
   #logo{
-    width: 8%;
-    height: 8%;
+    width: 6%;
+    height: 6%;
+    margin-right: 5.34vh;
+    margin-left: 5.34vh;
   }
 
   .centre-item{
-    padding-left: 75px;
+    padding-left: 8vh;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
   }
 
   footer{
     background-color: #4D4D4D;
     color: #EFEFEF;
     text-align: center;
-    font-size: 13px;
+    font-size: 1.4vh;
   }
 
   a[href^="tel:"] {
@@ -90,10 +97,25 @@
   }
 
   footer #footer-address{
-    margin-top: -15px;
+    margin-top: -1.6vh;
     margin-bottom: 0px;
   }
 
   footer #footer-clubname{
-    padding-top: 20px;
+    padding-top: 2.1vh;
+  }
+
+
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+  }
+  main {
+    flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 2.1vh;
+  }
+  footer {
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 2.1vh;
   }
