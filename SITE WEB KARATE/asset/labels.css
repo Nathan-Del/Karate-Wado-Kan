@@ -12,7 +12,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 3.35rem;
-    background-color: #ED9564;
+    background-color: #75c5dc;
     color: #EFEFEF;
 }
 
@@ -88,12 +88,12 @@
   }
   /* Effet de survol sur les onglets */
   #tab-nav a:hover {
-      background-color: #D30B20 ;
+      background-color: silver ;
       text-decoration: none;
   }
   /* Aspect des onglets actifs */
   #tab-nav .tab-nav-active {
-      background-color: #4d4d4d ;
+      background-color: #28364a ;
   }
   /* Contenu des onglets */
   .tab {

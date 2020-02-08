@@ -22,11 +22,12 @@
   }
   /* Effet de survol sur les onglets */
   #tab-nav a:hover {
-      background-color: #D30B20 ;
+      background-color: silver ;
+      text-decoration: none;
   }
   /* Aspect des onglets actifs */
   #tab-nav .tab-nav-active {
-      background-color: #4d4d4d ;
+      background-color: #28364a ;
   }
   /* Contenu des onglets */
   .tab {
@@ -41,54 +42,54 @@
   }
 
   #onglet-nav1{
-    background-color: #cccccc;
+    background-color: transparent;
     text-decoration: none;
-    color: #fff;
+    color: #75c5dc;
     transition-duration: 0.5s;
   }
 
   #onglet-nav2{
-    background-color: #cccccc;
+    background-color: transparent;
     text-decoration: none;
-    color: #fff;
+    color: #75c5dc;
     transition-duration: 0.5s;
   }
 
   #onglet-nav3{
-    background-color: #cccccc;
+    background-color: transparent;
     text-decoration: none;
-    color: #fff;
+    color: #75c5dc;
     transition-duration: 0.5s;
   }
 
   #onglet-nav4{
-    background-color: #cccccc;
+    background-color: transparent;
     text-decoration: none;
-    color: #fff;
+    color: #75c5dc;
     transition-duration: 0.5s;
   }
   #onglet-nav5{
-    background-color: #cccccc;
+    background-color: transparent;
     text-decoration: none;
-    color: #fff;
+    color: #75c5dc;
     transition-duration: 0.5s;
   }
   #onglet-nav6{
-    background-color: #cccccc;
+    background-color: transparent;
     text-decoration: none;
-    color: #fff;
+    color: #75c5dc;
     transition-duration: 0.5s;
   }
   #onglet-nav7{
-    background-color: #cccccc;
+    background-color: transparent;
     text-decoration: none;
-    color: #fff;
+    color: #75c5dc;
     transition-duration: 0.5s;
   }
   #onglet-nav8{
-    background-color: #cccccc;
+    background-color: transparent;
     text-decoration: none;
-    color: #fff;
+    color: #75c5dc;
     transition-duration: 0.5s;
   }
 

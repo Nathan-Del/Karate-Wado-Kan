@@ -104,7 +104,7 @@ footer{
 
 /*Hover nav principale*/
 a:hover{
-    background: #D30B20;
+    background: #28364a;
     border-radius: 12px;
   }
 
@@ -113,14 +113,16 @@ a:hover{
     background: transparent;
 }
 
-/*Hover nav secondaire*/
+/*Hover nav secondaire (pour les sous catégorie)*/
 .dropdown-item:hover{
-    background-color: #D30B20;
+    background-color: #28364a;
+    color: #EFEFEF;
 }
 
 /*Hover focus nav secondaire*/
 .dropdown-item:focus{
-    background-color: #D30B20;
+    background-color: #28364a;
+    color: #EFEFEF;
 }
 
 
