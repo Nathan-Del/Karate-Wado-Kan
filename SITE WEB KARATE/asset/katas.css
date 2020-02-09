@@ -28,3 +28,21 @@
     width: 60%; 
     border: 0; 
   }
+
+  /*Lors du passage en mode mobile*/
+  /*La taille en px correspond a la taille des carractère*/
+  @media only screen and (max-width: 535px){
+    .kata-info{
+      text-align: left;
+    /* width: 100%; */
+    width: auto;
+    /* border: 15px solid green; */
+    padding: 5.3vh;
+    margin: 6.4vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3.35rem;
+    background-color: #75c5dc;
+    color: #EFEFEF;
+    }
+  }

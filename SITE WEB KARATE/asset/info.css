@@ -12,3 +12,16 @@
   margin-right: auto;
   border-radius: 3.35rem;
 }
+
+/*Lors du passage en mode mobile*/
+/*La taille en px correspond a la taille des carractère*/
+@media only screen and (max-width: 555px){
+  .info{
+    text-align: left;
+    width: auto;
+    margin: 1.4vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3.35rem;
+  }
+}

@@ -63,3 +63,14 @@ iframe{
     margin-right: 80vh;
     margin-top: 3vw;
 }
+
+@media only screen and (max-width: 782px){
+    /*section en haut de page et à côté du logo*/
+    #top-page{
+        margin-top: 0;
+    }
+
+    #img-wadoryu{
+        width: 0;
+    }
+}

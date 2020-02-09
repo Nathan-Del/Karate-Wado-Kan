@@ -1,4 +1,14 @@
+@media only screen and (max-width: 992px){
+    iframe{
+        top: 0;
+        left: 0;
+        width: 60%;
+        border: 0;
+    }
+}
 
-iframe{
-
+@media only screen and (max-width: 992px){
+    img{
+        width: 100%;
+    }
 }
