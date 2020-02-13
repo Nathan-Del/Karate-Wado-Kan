@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="../bootstrap-4.3.1/css/bootstrap.css">
+    <link rel="stylesheet" href="../asset/app.css">
+    <link rel="stylesheet" href="../asset/moral.css">
+    <!--JS-->
+    <script async src="../bootstrap-4.3.1/js/bootstrap.js"></script>
+    <script async src="../asset/app.js"></script>
+    <title>Code Moral</title>
+</head>
+<body>
+  <header>
+    <h1 style="text-align: center; font-size: 2vw;"><img id="logo" src="../asset/img/Logo USMBM Wado Kan.jpg" alt="logo usmb wado-kan" width="42" height="42">USMBM Wado-Kan (Karaté Montsoult, Baillet-en-France, Maffliers)<img id="logo" src="../asset/img/Logo USMBM Wado Kan.jpg" alt="logo usmb wado-kan" width="42" height="42"></h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" class="back-color" data-toggle="sticky-onscroll">
+        <!--Important pour le responsive-->
+        <a class="navbar-brand" href="../acceuil-Mathieu.html">Acceuil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDD" aria-controls="navbarDD" aria-expanded="false" aria-label="Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarDD">
+            <ul class="navbar-nav bg-primary mx-auto">
+                <li class="nav-item bg-primary dropdown">
+                    <a class="nav-link dropdown-toggle" id="aprop-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        A propos
+                    </a>
+                    <ul class="dropdown-menu bg-primary">
+                        <li><a class="dropdown-item sous-aprop-hover" href="#">Histoire du Club</a></li>
+                        <li><a class="dropdown-item sous-aprop-hover" href="../Senseis.html">Equipe pédagogique</a></li>
+                        <li><a class="dropdown-item sous-aprop-hover" href="../LabelCancer.html">Labels</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="info-hover" href="../Infos.html">Horaires et Tarifs<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="technique-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Fiches Techniques
+                    </a>
+                    <ul class="dropdown-menu bg-primary">
+                        <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Katas</a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanNidan.html">Pinan Nidan</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanShodan.html">Pinan Shodan</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanSandan.html">Pinan Sandan</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanYodan.html">Pinan Yodan</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanGodan.html">Pinan Godan</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/NaiHanchi.html">NaiHanchi</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Bassai.html">Bassai</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Kushanku.html">Kushanku</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Jion.html">Jion</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Wanshu.html">Wanshu</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Seishan.html">Seishan</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Chinto.html">Chinto</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Jitte.html">Jitte</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Niseishi.html">Niseishi</a></li>
+                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Rohai.html">Rohai</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Kihon Kumite</a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN1.html">Kihon Kumite N°1</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN2.html">Kihon Kumite N°2</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN3.html">Kihon Kumite N°3</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN4.html">Kihon Kumite N°4</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN5.html">Kihon Kumite N°5</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN6.html">Kihon Kumite N°6</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN7.html">Kihon Kumite N°7</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN8.html">Kihon Kumite N°8</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN9.html">Kihon Kumite N°9</a></li>
+                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN10.html">Kihon Kumite N°10</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Tanto Dori</a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN1.html">TantoDori N°1</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN2.html">TantoDori N°2</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN3.html">TantoDori N°3</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN4.html">TantoDori N°4</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN5.html">TantoDori N°5</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN6.html">TantoDori N°6</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN7.html">TantoDori N°7</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN8.html">TantoDori N°8</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN9.html">TantoDori N°9</a></li>
+                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN10.html">TantoDori N°10</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item sous-tech-hover" href="../Glossaire.html">Lexique</a></li>
+                        <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Coin des karatés kids</a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a class="dropdown-item sous-kids-hover" href="../KarateKids/Ceinture.html">Nouer sa ceinture</a></li>
+                                <li><a class="dropdown-item active sous-kids-hover" href="../KarateKids/CodeMoral.html">Code Moral</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" Labid="grade-hover" href="../GradeFormation.html">Grades et Formations<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="competition-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Compétitions
+                    </a>
+                    <ul class="dropdown-menu bg-primary">
+                        <li><a class="dropdown-item sous-compet-hover" href="#">Calendrier</a></li>
+                        <li><a class="dropdown-item dropdown-toggle sous-compet-hover" href="#">Résultats Sportifs</a>
+                            <ul class="dropdown-menu bg-primary">
+                                <li><a class="dropdown-item sous-result-hover" href="#">Coupe des 16 et 17</a></li>
+                                <li><a class="dropdown-item sous-result-hover" href="#">Championnats du Val</a></li>
+                                <li><a class="dropdown-item sous-result-hover" href="#">Coupe  Ile de France Wado</a></li>
+                                <li><a class="dropdown-item sous-result-hover" href="#">Coupe de Val d'Oise</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="galerie-hover" href="#">Galerie<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-hover" href="../Apropos.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+    <main>
+        <h2 class="center-moral">Code Moral du Karatéka</h2>
+        <section>
+            <h4 class="center-moral"><strong>L'HONNEUR : MEIYO</strong></h4>
+            <center><img class="moral-img" src="../asset/img/MeIyo.jpg" alt="code moral karaté meiyo"></center>
+            
+            <p class="moral-text">L'honneur conditionne notre attitude et notre manière d'être vis à vis des autres. C'est la qualité essentielle. Nul ne peut se prétendre Budoka (guerrier au sens noble du terme) s'il n'a pas une conduite honorable. Du sens de l'honneur découlent toutes les autres vertus. Il exige le respect du code moral et la poursuite d'un idéal, de manière à toujours avoir un comportement digne et respectable.</p>
+        </section>
+        <br>
+        <section>
+            <h4 class="center-moral"><strong>LA FIDELITE : CHUJITSU</strong></h4>
+            <center><img class="moral-img" src="../asset/img/Chujitsu.jpg" alt="code moral karaté Chujitsu"></center>
+            
+            <p class="moral-text">Il n'y a pas d'honneur sans fidélité et loyauté à l'égard de certains idéaux et de ceux qui les partagent. La fidélité symbolise la nécessité incontournable de tenir ses promesses et remplir ses engagements. La fidélité nécessite la sincérité dans les paroles et dans les actes.</p>
+        </section>
+        <br>
+        <section>
+            <h4 class="center-moral"><strong>LA SINCERITE : MAKOTO</strong></h4>
+            <center><img class="moral-img" src="../asset/img/Makoto.jpg" alt="code moral karaté Makoto"></center>
+            
+            <p class="moral-text">Lors du salut du karatéka,, vous exprimez cette sincérité. Le mensonge et l'équivoque engendrent la suspicion qui est la source de toutes les désunions. Dans les arts martiaux, le salut est l'expression de cette sincérité, c'est le signe de celui qui ne déguise ni ses sentiments, ni ses pensées de celui qui sait être authentique.</p>
+        </section>
+        <br>
+        <section>
+            <h4 class="center-moral"><strong>LE COURAGE : YÜKI</strong></h4>
+            <center><img class="moral-img" src="../asset/img/Yuki.jpg" alt="code moral karaté Yuki"></center>
+            
+            <p class="moral-text">La force d'âme qui fait braver le danger et la souffrance s'appelle le courage. Ce courage qui nous pousse à faire respecter ce qui nous paraît juste et qui nous permet malgré nos peurs et nos craintes d'affronter toutes les épreuves. La bravoure, l'ardeur et surtout la volonté sont les supports du courage.</p>
+        </section>
+        <br>
+        <section>
+            <h4 class="center-moral"><strong>LA BONTE ET LA BIENVEILLANCE : SHINSETSU</strong></h4>
+            <center><img class="moral-img" src="../asset/img/Shinsetsu.jpg" alt="code moral karaté Shinsetsu"></center>
+            
+            <p class="moral-text">La bonté est une marque de courage qui dénote une haute humanité. Elle nous pousse à l'entraide, à être attentif à notre prochain et à notre environnement  à être respectueux de la vie.</p>
+        </section>
+        <br>
+        <section>
+            <h4 class="center-moral"><strong>LA MODESTIE ET L'HUMILITE : KYOKEN</strong></h4>
+            <center><img class="moral-img" src="../asset/img/Kyoken.jpg" alt="code moral karaté Kyoken"></center>
+            
+            <p class="moral-text">Si le budoka devient l'ambassadeur du  code moral, il se doit de rester humble et ne pas flatter son égo. La bonté et la bienveillance ne peuvent s'exprimer sincèrement sans modération dans l'appréciation de soi-même. Savoir être humble, exempt d'orgueil et de vanité est le seul garant de la modestie.</p>
+        </section>
+        <br>
+        <section>
+            <h4 class="center-moral"><strong>LA DROITURE : TADASHI</strong></h4>
+            <center><img class="moral-img" src="../asset/img/Tadashi.jpg" alt="code moral karaté Tadashi"></center>
+            
+            <p class="moral-text">C'est suivre la ligne du devoir sans jamais s'en écarter. Loyauté, honneteté et sincérité sont les piliers de cette droiture. Elles nous permettent de prendre sans aucune faiblesse une décision juste et raisonnable. La droiture engendre le respect à l'égard  des autres et de la part des autres. La politesse est l'expression de ce respect dû à autrui.</p>
+        </section>
+        <br>
+        <section>
+            <h4 class="center-moral"><strong>LE RESPECT : SONCHOO</strong></h4>
+            <center><img class="moral-img" src="../asset/img/Sonchoo.jpg" alt="code moral karaté Sonchoo"></center>
+            
+            <p class="moral-text">La droiture engendre le respect à l'égard des autres et de la part des autres. Quelques que soient ses qualiés, ses faiblesses ou sa position sociale savoir traiter les personnes et les choses avec déférence et respecter le sacré est le premier devoir d'un Budoka car cela permet d'éviter de nombreuses querelles et conflits.</p>
+        </section>
+        <br>
+        <section>
+            <h4 class="center-moral"><strong>LE CONTROLE DE SOI : SEIGYO</strong></h4>
+            <center><img class="moral-img" src="../asset/img/Seigyo.jpg" alt="code moral karaté Seigyo"></center>
+            
+            <p class="moral-text">Cela doit être la qualité essentielle de toute ceinture noire. Il représente la possibilité de maîtriser nos sentiments, nos pulsions et de contrôler notre instinct. C'est l'un des principaux objectifs dans la pratique des arts martiaux car il conditionne toute notre efficacité.  Il représente la faculté de toute ceinture noire à maîtriser n'importe quelle situation et maîtriser son instinct. Une grande partie de l'apprentissage du karaté est basé sur cette vertu.</p>
+        </section>
+    </main>
+    <footer>
+      <p id="footer-clubname" >USMBM Wado-Kan (Karaté Montsoult, Baillet-en-France, Maffliers)</p>
+      <p id="footer-address" >18 rue de Pontoise sous sol de la salle polyvalente</p>
+      
+      <a href="tel:+33 6 61 59 01 80">06 61 59 01 80</a>
+      <br>
+      <a href="mailto:karate.montsoult@gmail.com">karate.montsoult@gmail.com</a>
+      <br>
+      <br>
+      <div class="footer-copyright text-center py-3">
+        © 2019 USMBM Wado-Kan: Tous droit réservés.
+      </div>
+    </footer>
+</body>
+</html>

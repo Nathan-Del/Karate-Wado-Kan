@@ -1,0 +1,76 @@
+section dl dd{
+    margin-left: 10.7vh;
+    text-align: left;
+}
+
+.propos-contact{
+    color: black !important;
+}
+
+#propos-img{
+    width: 30%;
+    padding-bottom: 2.1vh;
+    border: 0.5vh double;
+    border-radius: 0.35rem;
+    padding: 3.7vh;
+    border-color: #D30B20;
+}
+
+main{
+    text-align: center;
+}
+
+#title{
+    padding-top: 2.1vh;
+    padding-bottom: 2.1vh;
+}
+
+
+h3{
+    margin-top: 2.1vh;
+    margin-bottom: 2.1vh;
+}
+
+.propos-info{
+    width: 45.9vh;
+    /* border: 15px solid green; */
+    padding: 5.3vh;
+    /* margin: 60px; */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3.35rem;
+    background-color: #75c5dc;
+    /* color: #EFEFEF; */
+}
+
+dt {
+    margin-left: 6.4vh;
+    /* margin-right: 100px; */
+    text-align: left;
+}
+
+/*Taille de la carte*/
+iframe{
+    width: 80%;
+}
+
+/*section en haut de page et à côté du logo*/
+#top-page{
+    margin-top: -35vh;
+}
+
+#img-wadoryu{
+    margin-right: 80vh;
+    margin-top: 3vw;
+}
+
+@media only screen and (max-width: 782px){
+    /*section en haut de page et à côté du logo*/
+    #top-page{
+        margin-top: 0;
+    }
+
+    #img-wadoryu{
+        width: 0;
+    }
+}

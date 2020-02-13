@@ -1,0 +1,22 @@
+.moral-text{
+    text-align: left;
+    /* width: 100%; */
+    width: 47.43736263736263vw;
+    /* border: 15px solid green; */
+    padding: 5.3vh;
+    margin: 6.4vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3.35rem;
+    background-color: #75c5dc;
+    color: #EFEFEF;
+}
+
+.center-moral{
+    text-align: center;
+    padding-top: 2.1vh;
+}
+
+.moral-img{
+    padding-top: 2.1vh;
+}
