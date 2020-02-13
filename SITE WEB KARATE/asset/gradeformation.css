@@ -1,12 +1,4 @@
 .colonne{
-    float: left;
-    width: 47%;
+    width: 78%;
     padding: 10px;
-    padding-left: 30vw;
-}
-
-.formation{
-    margin-top: 0vh;
-    margin-left: 30vw;
-    position: absolute;
 }
