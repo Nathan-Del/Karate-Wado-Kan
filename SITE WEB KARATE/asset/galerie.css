@@ -1,0 +1,26 @@
+/* Styles for the Gallery*/
+
+.tz-gallery {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.tz-gallery .row .col-md-4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.tz-gallery img {
+    border-radius: 3px;
+}
