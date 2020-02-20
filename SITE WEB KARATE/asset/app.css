@@ -13,6 +13,10 @@
 }
 
 
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
 /*NAVBAR EPPAISEUR*/
 .navbar{
     padding: 0.25rem 1rem;
