@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="../SITE WEB KARATE/bootstrap-4.3.1/css/bootstrap.css">
+    <link rel="stylesheet" href="../SITE WEB KARATE/asset/app.css">
+    <!--JS-->
+    <script async src="../SITE WEB KARATE/bootstrap-4.3.1/js/bootstrap.js"></script>
+    <script async src="../SITE WEB KARATE/asset/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="asset/Accueil.css">
+    <title>Histoire du Club</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; font-size: 2vw;">
+            <img id="logo" src="../SITE WEB KARATE/asset/img/Logo USMBM Wado Kan.jpg" alt="logo USMBM wado-kan" width="42" height="42">
+            <img id="logo2" src="../SITE WEB KARATE/asset/img/logo-usmbm-karate.png" alt="logo USMBM karate" width="42" height="42">
+            USMBM Wado-Kan (Karaté Montsoult, Baillet-en-France, Maffliers)
+            <a href="https://www.facebook.com/KarateMontsoult">
+                <img id="logoFacebook" src="../SITE WEB KARATE/asset/img/facebook.png" alt="logo facebook depuis flaticon.com" width="42" height="42">
+            </a>
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary" class="back-color" data-toggle="sticky-onscroll">
+            <!--Important pour le responsive-->
+            <a class="navbar-brand" href="../SITE WEB KARATE/accueil.html">Acceuil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDD" aria-controls="navbarDD" aria-expanded="false" aria-label="Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarDD">
+                <ul class="navbar-nav bg-primary mx-auto">
+                    <li class="nav-item bg-primary dropdown">
+                        <a class="nav-link dropdown-toggle" id="aprop-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            A propos
+                        </a>
+                        <ul class="dropdown-menu bg-primary">
+                            <li><a class="dropdown-item sous-aprop-hover" href="../SITE WEB KARATE/HistoireClub.html">Histoire du Club</a></li>
+                            <li><a class="dropdown-item sous-aprop-hover" href="../SITE WEB KARATE/Senseis.html">Equipe pédagogique</a></li>
+                            <li><a class="dropdown-item sous-aprop-hover" href="../SITE WEB KARATE/LabelCancer.html">Labels</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="info-hover" href="../SITE WEB KARATE/Infos.html">Horaires et Tarifs<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="technique-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Fiches Techniques
+                        </a>
+                        <ul class="dropdown-menu bg-primary">
+                            <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Katas</a>
+                                <ul class="dropdown-menu bg-primary">
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/pinanNidan.html">Pinan Nidan</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/pinanShodan.html">Pinan Shodan</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/pinanSandan.html">Pinan Sandan</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/pinanYodan.html">Pinan Yodan</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/pinanGodan.html">Pinan Godan</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/NaiHanchi.html">NaiHanchi</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Bassai.html">Bassai</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Kushanku.html">Kushanku</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Jion.html">Jion</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Wanshu.html">Wanshu</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Seishan.html">Seishan</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Chinto.html">Chinto</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Jitte.html">Jitte</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Niseishi.html">Niseishi</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../SITE WEB KARATE/Katas/Rohai.html">Rohai</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Kihon Kumite</a>
+                                <ul class="dropdown-menu bg-primary">
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN1.html">Kihon Kumite N°1</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN2.html">Kihon Kumite N°2</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN3.html">Kihon Kumite N°3</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN4.html">Kihon Kumite N°4</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN5.html">Kihon Kumite N°5</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN6.html">Kihon Kumite N°6</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN7.html">Kihon Kumite N°7</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN8.html">Kihon Kumite N°8</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN9.html">Kihon Kumite N°9</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../SITE WEB KARATE/KihonKumite/KihonKumiteN10.html">Kihon Kumite N°10</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Tanto Dori</a>
+                                <ul class="dropdown-menu bg-primary">
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN1.html">TantoDori N°1</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN2.html">TantoDori N°2</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN3.html">TantoDori N°3</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN4.html">TantoDori N°4</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN5.html">TantoDori N°5</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN6.html">TantoDori N°6</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN7.html">TantoDori N°7</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN8.html">TantoDori N°8</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN9.html">TantoDori N°9</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../SITE WEB KARATE/TantoDori/TantoDoriN10.html">TantoDori N°10</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item sous-tech-hover" href="../SITE WEB KARATE/Glossaire.html">Lexique</a></li>
+                            <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Coin des karatés kids</a>
+                                <ul class="dropdown-menu bg-primary">
+                                    <li><a class="dropdown-item sous-kids-hover" href="../SITE WEB KARATE/KarateKids/Ceinture.html">Nouer sa ceinture</a></li>
+                                    <li><a class="dropdown-item sous-kids-hover" href="../SITE WEB KARATE/KarateKids/CodeMoral.html">Code Moral</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="grade-hover" href="../SITE WEB KARATE/GradeFormation.html">Grades et Formations<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="competition-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Compétitions
+                        </a>
+                        <ul class="dropdown-menu bg-primary">
+                            <li><a class="dropdown-item sous-compet-hover" href="#">Calendrier</a></li>
+                            <li><a class="dropdown-item dropdown-toggle sous-compet-hover" href="#">Résultats Sportifs</a>
+                                <ul class="dropdown-menu bg-primary">
+                                    <li><a class="dropdown-item sous-result-hover" href="#">Coupe des 16 et 17</a></li>
+                                    <li><a class="dropdown-item sous-result-hover" href="#">Championnats du Val</a></li>
+                                    <li><a class="dropdown-item sous-result-hover" href="#">Coupe  Ile de France Wado</a></li>
+                                    <li><a class="dropdown-item sous-result-hover" href="#">Coupe de Val d'Oise</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="galerie-hover" href="../SITE WEB KARATE/galerie.html">Galerie<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="lien-utile-hover" href="../SITE WEB KARATE/LiensUtile.html">Liens Utiles<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-hover" href="../SITE WEB KARATE/Apropos.html">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2 style="text-align: center; font-weight: bold">Wado Ryu</h2>
+        <h2 style="text-align: center; font-weight: bold">La voie de la paix</h2>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><h4 style="font-style:italic; font-weight: bold">Histoire du Wado Ryu</h4>
+                <p>C’est en 1934 que le style de karaté Wado Ryu est né. Il a été fondé par Hironori OTSUKA, pratiquant de Jujitsu et de Karaté. C’est en s’inspirant principalement de ces 2 arts martiaux que OTSUKA SENSEI repense le karaté d’Okinawa pour le rendre plus fluide et plus arrondi. Ainsi, le Karaté Wado Ryu est régi par 3 grands principes : Noru, Nagasu et Inasu.</p>
+                <p> <p style="font-weight: bold; display:inline-block; margin-bottom: auto;">Noru</p> signifie rentrer, contrer, pénétrer. Il fait référence au concept de sen no sen : l'attaque dans l'attaque. Il s'agit de pénétrer dans l'attaque de l'adversaire pour le contrer.</p>
+                <p> <p style="font-weight: bold; display:inline-block; margin-bottom: auto;">Nagasu</p> se traduit par aspirer, accompagner, laisser passer et enrouler. Il s'agit d'effectuer une esquive et/ou une déviation de l'attaque pour se retrouver dans un placement avantageux pour répliquer. En effet, l'une des spécificités du karaté Wado Ryu est de ne pas faire appel aux blocages "en force" mais de privilégier le déplacement et les absorptions.</p>
+                <p><p style="font-weight: bold; display:inline-block; margin-bottom: auto;">Inasu</p> est la combinaison de Noru et de nagasu que l'on peut résumer par "l'action dans l'esquive". Il s'agit donc de dévier la trajectoire de l'attaque par une esquive accompagnée d'une parade (nagasu) en contrant simultanément (noru). En cela, la maîtrise du principe de Inasu est l'aboutissement du karaté Wado Ryu.</p></div>
+            </div>
+        </div>
+        
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><h4 style="font-style: italic; font-weight: bold">Histoire du club</h4>
+                    <p>L’USMBM Wado Kan a été créé en 1987 par Bruno HOURIEZ, élève de Jean-Claude CORNU et Hiroji FUKAZAWA, représentant du Wado Ryu en France. Il est rejoint, en 1988, par Xavier DUGAUQUIER qui restera son élève jusqu’en 2001. </p>
+                    <p>Depuis 2001, une équipe de professeurs enseigne toujours le Wado Ryu traditionnel, sous la direction de Xavier DUGAUQUIER. Certains professeurs sont partis vers d’autres horizons, comme Gilles et Jérôme FANTINI, et d’autres nous ont rejoint. </p>
+                    <p>Aujourd’hui, le club ne compte pas moins de 8 professeurs diplômés. D’autres disciplines viennent également compléter le traditionnel Wado Ryu, comme le body karaté ou le karaté mix. Ainsi, chacun, des babys au séniors, peut pratiquer en fonction de ses envies et de ses capacités.</p>
+                    <p>L’USMBM Wado Kan est aussi membre de la WIKF France et participe, régulièrement à des manifestations nationales et internationales. </p></div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <p id="footer-clubname" >USMBM Wado-Kan (Karaté Montsoult, Baillet-en-France, Maffliers)</p>
+        <p id="footer-address" >18 rue de Pontoise sous sol de la salle polyvalente</p>
+        
+        <a href="tel:+33 6 61 59 01 80">06 61 59 01 80</a>
+        <br>
+        <a href="mailto:karate.montsoult@gmail.com">karate.montsoult@gmail.com</a>
+        <br>
+        <br>
+        <div class="footer-copyright text-center py-3">
+          © 2019 USMBM Wado-Kan: Tous droit réservés.
+        </div>
+      </footer>
+</body>
+</html>

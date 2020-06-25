@@ -134,6 +134,7 @@ section .section-title {
 
 .card-text{
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .mt-4, .my-4 {
@@ -143,3 +144,13 @@ section .section-title {
 .back-center-title{
     margin-top: 8vh;
 }
+
+.info{
+    /* Le texte est condenser en bloc*/
+    /* width: 57.8vh;
+    margin: 1.4vh; */
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }

@@ -13,6 +13,10 @@
 }
 
 
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
 /*NAVBAR EPPAISEUR*/
 .navbar{
     padding: 0.25rem 1rem;
@@ -26,6 +30,19 @@
     width: 5%;
     height: 5%;
     margin-right: 5.34vw;
+    margin-left: 5.34vw;
+}
+
+#logo2{
+    width: 8%;
+    height: 8%;
+    margin-right: 0.34vw;
+    margin-left: -3.66vw;
+}
+
+#logoFacebook{
+    width: 3%;
+    height: 3%;
     margin-left: 5.34vw;
 }
 
@@ -103,7 +120,7 @@ footer{
 
 
 /*Hover nav principale*/
-a:hover{
+#navbarDD a:hover{
     background: #28364a;
     border-radius: 12px;
   }
@@ -125,6 +142,18 @@ a:hover{
     color: #EFEFEF;
 }
 
+
+@media only screen and (max-width: 1635px){
+    h5{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    .sous-titre_img{
+        display: none;
+    }
+}
 
 /*List hover, id pour chaque taille de mot de la Nav
 Lors du passage en mode mobile*/
@@ -191,6 +220,12 @@ Lors du passage en mode mobile*/
 
     #galerie-hover{
         width: 58px;
+        padding-left: 6px;
+        border-radius: 12px
+    }
+
+    #lien-utile-hover{
+        width: 84px;
         padding-left: 6px;
         border-radius: 12px
     }

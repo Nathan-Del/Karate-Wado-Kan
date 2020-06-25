@@ -6,139 +6,153 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
   <!--CSS-->
-  <link rel="stylesheet" href="../bootstrap-4.3.1/css/bootstrap.css">
-  <link rel="stylesheet" href="../asset/app.css">
-  <link rel="stylesheet" href="../asset/katas.css">
-  <!--JS-->
-  <script async src="../bootstrap-4.3.1/js/bootstrap.js"></script>
-  <script async src="../asset/app.js"></script>
+    <!-- BOOTDTRAP 4.3.1 -->
+    <!-- <link rel="stylesheet" href="../bootstrap-4.3.1/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../asset/app.css">
+    <link rel="stylesheet" href="../asset/katas.css">
+    <!--JS-->
+    <!-- BOOTDTRAP 4.3.1 -->
+    <!-- <script async src="../bootstrap-4.3.1/js/bootstrap.js"></script> -->
+    <script async src="../bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+    <script async src="../asset/app.js"></script>
     <title>NaiHanchi</title>
 </head>
 <body>
-  <header>
-    <h1 style="text-align: center; font-size: 2vw;"><img id="logo" src="../asset/img/Logo USMBM Wado Kan.jpg" alt="logo usmb wado-kan" width="42" height="42">USMBM Wado-Kan (Karaté Montsoult, Baillet-en-France, Maffliers)<img id="logo" src="../asset/img/Logo USMBM Wado Kan.jpg" alt="logo usmb wado-kan" width="42" height="42"></h1>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" class="back-color" data-toggle="sticky-onscroll">
-        <!--Important pour le responsive-->
-        <a class="navbar-brand" href="../acceuil-Mathieu.html">Acceuil</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDD" aria-controls="navbarDD" aria-expanded="false" aria-label="Navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarDD">
-            <ul class="navbar-nav bg-primary mx-auto">
-                <li class="nav-item bg-primary dropdown">
-                    <a class="nav-link dropdown-toggle" id="aprop-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        A propos
-                    </a>
-                    <ul class="dropdown-menu bg-primary">
-                        <li><a class="dropdown-item sous-aprop-hover" href="#">Histoire du Club</a></li>
-                        <li><a class="dropdown-item sous-aprop-hover" href="../Senseis.html">Equipe pédagogique</a></li>
-                        <li><a class="dropdown-item sous-aprop-hover" href="../LabelCancer.html">Labels</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="info-hover" href="../Infos.html">Horaires et Tarifs<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="technique-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Fiches Techniques
-                    </a>
-                    <ul class="dropdown-menu bg-primary">
-                        <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Katas</a>
-                            <ul class="dropdown-menu bg-primary">
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanNidan.html">Pinan Nidan</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanShodan.html">Pinan Shodan</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanSandan.html">Pinan Sandan</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanYodan.html">Pinan Yodan</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanGodan.html">Pinan Godan</a></li>
-                                <li><a class="dropdown-item active sous-kata-hover" href="../Katas/NaiHanchi.html">NaiHanchi</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Bassai.html">Bassai</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Kushanku.html">Kushanku</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Jion.html">Jion</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Wanshu.html">Wanshu</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Seishan.html">Seishan</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Chinto.html">Chinto</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Jitte.html">Jitte</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Niseishi.html">Niseishi</a></li>
-                                <li><a class="dropdown-item sous-kata-hover" href="../Katas/Rohai.html">Rohai</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Kihon Kumite</a>
-                            <ul class="dropdown-menu bg-primary">
-                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN1.html">Kihon Kumite N°1</a></li>
-                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN2.html">Kihon Kumite N°2</a></li>
-                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN3.html">Kihon Kumite N°3</a></li>
-                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN4.html">Kihon Kumite N°4</a></li>
-                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN5.html">Kihon Kumite N°5</a></li>
-                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN6.html">Kihon Kumite N°6</a></li>
-                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN7.html">Kihon Kumite N°7</a></li>
-                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN8.html">Kihon Kumite N°8</a></li>
-                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN9.html">Kihon Kumite N°9</a></li>
-                                <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN10.html">Kihon Kumite N°10</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Tanto Dori</a>
-                            <ul class="dropdown-menu bg-primary">
-                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN1.html">TantoDori N°1</a></li>
-                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN2.html">TantoDori N°2</a></li>
-                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN3.html">TantoDori N°3</a></li>
-                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN4.html">TantoDori N°4</a></li>
-                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN5.html">TantoDori N°5</a></li>
-                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN6.html">TantoDori N°6</a></li>
-                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN7.html">TantoDori N°7</a></li>
-                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN8.html">TantoDori N°8</a></li>
-                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN9.html">TantoDori N°9</a></li>
-                                <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN10.html">TantoDori N°10</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="dropdown-item sous-tech-hover" href="../Glossaire.html">Lexique</a></li>
-                        <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Coin des karatés kids</a>
-                            <ul class="dropdown-menu bg-primary">
-                                <li><a class="dropdown-item sous-kids-hover" href="../KarateKids/Ceinture.html">Nouer sa ceinture</a></li>
-                                <li><a class="dropdown-item sous-kids-hover" href="../KarateKids/CodeMoral.html">Code Moral</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" Labid="grade-hover" href="../GradeFormation.html">Grades et Formations<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="competition-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Compétitions
-                    </a>
-                    <ul class="dropdown-menu bg-primary">
-                        <li><a class="dropdown-item sous-compet-hover" href="#">Calendrier</a></li>
-                        <li><a class="dropdown-item dropdown-toggle sous-compet-hover" href="#">Résultats Sportifs</a>
-                            <ul class="dropdown-menu bg-primary">
-                                <li><a class="dropdown-item sous-result-hover" href="#">Coupe des 16 et 17</a></li>
-                                <li><a class="dropdown-item sous-result-hover" href="#">Championnats du Val</a></li>
-                                <li><a class="dropdown-item sous-result-hover" href="#">Coupe  Ile de France Wado</a></li>
-                                <li><a class="dropdown-item sous-result-hover" href="#">Coupe de Val d'Oise</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="galerie-hover" href="#">Galerie<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="contact-hover" href="../Apropos.html">Contact<span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
+    <header>
+        <h1 style="text-align: center; font-size: 2vw;">
+            <img id="logo" src="../asset/img/Logo USMBM Wado Kan.jpg" alt="logo USMBM wado-kan" width="42" height="42">
+            <img id="logo2" src="../asset/img/logo-usmbm-karate.png" alt="logo USMBM karate" width="42" height="42">
+            USMBM Wado-Kan (Karaté Montsoult, Baillet-en-France, Maffliers)
+            <a href="https://www.facebook.com/KarateMontsoult">
+                <img id="logoFacebook" src="../asset/img/facebook.png" alt="logo facebook depuis flaticon.com" width="42" height="42">
+            </a>
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary" class="back-color" data-toggle="sticky-onscroll">
+            <!--Important pour le responsive-->
+            <a class="navbar-brand" href="../accueil.html">Acceuil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDD" aria-controls="navbarDD" aria-expanded="false" aria-label="Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarDD">
+                <ul class="navbar-nav bg-primary mx-auto">
+                    <li class="nav-item bg-primary dropdown">
+                        <a class="nav-link dropdown-toggle" id="aprop-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            A propos
+                        </a>
+                        <ul class="dropdown-menu bg-primary">
+                            <li><a class="dropdown-item sous-aprop-hover" href="../HistoireClub.html">Histoire du Club</a></li>
+                            <li><a class="dropdown-item sous-aprop-hover" href="../Senseis.html">Equipe pédagogique</a></li>
+                            <li><a class="dropdown-item sous-aprop-hover" href="../LabelCancer.html">Labels</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="info-hover" href="../Infos.html">Horaires et Tarifs<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="technique-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Fiches Techniques
+                        </a>
+                        <ul class="dropdown-menu bg-primary">
+                            <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Katas</a>
+                                <ul class="dropdown-menu bg-primary">
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanNidan.html">Pinan Nidan</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanShodan.html">Pinan Shodan</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanSandan.html">Pinan Sandan</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanYodan.html">Pinan Yodan</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/pinanGodan.html">Pinan Godan</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/NaiHanchi.html">NaiHanchi</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/Bassai.html">Bassai</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/Kushanku.html">Kushanku</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/Jion.html">Jion</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/Wanshu.html">Wanshu</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/Seishan.html">Seishan</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/Chinto.html">Chinto</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/Jitte.html">Jitte</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/Niseishi.html">Niseishi</a></li>
+                                    <li><a class="dropdown-item sous-kata-hover" href="../Katas/Rohai.html">Rohai</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Kihon Kumite</a>
+                                <ul class="dropdown-menu bg-primary">
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN1.html">Kihon Kumite N°1</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN2.html">Kihon Kumite N°2</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN3.html">Kihon Kumite N°3</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN4.html">Kihon Kumite N°4</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN5.html">Kihon Kumite N°5</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN6.html">Kihon Kumite N°6</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN7.html">Kihon Kumite N°7</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN8.html">Kihon Kumite N°8</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN9.html">Kihon Kumite N°9</a></li>
+                                    <li><a class="dropdown-item sous-kihon-hover" href="../KihonKumite/KihonKumiteN10.html">Kihon Kumite N°10</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Tanto Dori</a>
+                                <ul class="dropdown-menu bg-primary">
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN1.html">TantoDori N°1</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN2.html">TantoDori N°2</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN3.html">TantoDori N°3</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN4.html">TantoDori N°4</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN5.html">TantoDori N°5</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN6.html">TantoDori N°6</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN7.html">TantoDori N°7</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN8.html">TantoDori N°8</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN9.html">TantoDori N°9</a></li>
+                                    <li><a class="dropdown-item sous-tanto-hover" href="../TantoDori/TantoDoriN10.html">TantoDori N°10</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item sous-tech-hover" href="../Glossaire.html">Lexique</a></li>
+                            <li><a class="dropdown-item dropdown-toggle sous-tech-hover" href="#">Coin des karatés kids</a>
+                                <ul class="dropdown-menu bg-primary">
+                                    <li><a class="dropdown-item sous-kids-hover" href="../KarateKids/Ceinture.html">Nouer sa ceinture</a></li>
+                                    <li><a class="dropdown-item sous-kids-hover" href="../KarateKids/CodeMoral.html">Code Moral</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="grade-hover" href="../GradeFormation.html">Grades et Formations<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="competition-hover" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Compétitions
+                        </a>
+                        <ul class="dropdown-menu bg-primary">
+                            <li><a class="dropdown-item sous-compet-hover" href="#">Calendrier</a></li>
+                            <li><a class="dropdown-item dropdown-toggle sous-compet-hover" href="#">Résultats Sportifs</a>
+                                <ul class="dropdown-menu bg-primary">
+                                    <li><a class="dropdown-item sous-result-hover" href="#">Coupe des 16 et 17</a></li>
+                                    <li><a class="dropdown-item sous-result-hover" href="#">Championnats du Val</a></li>
+                                    <li><a class="dropdown-item sous-result-hover" href="#">Coupe  Ile de France Wado</a></li>
+                                    <li><a class="dropdown-item sous-result-hover" href="#">Coupe de Val d'Oise</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="galerie-hover" href="../galerie.html">Galerie<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="lien-utile-hover" href="../LiensUtile.html">Liens Utiles<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-hover" href="../Apropos.html">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <main>
       <h2 class="kata-centre" >Kata</h2>
       <h4 class="kata-centre" >NaiHanchi</h4>
       <div class="kata-info">
-          <p>Origine: Antérieur à 1825 Matsumura à Shuri – Tomari.</p>
-          <p>Description: « Le cheval de fer » ou kata du « Champ de Bataille ».
+          <p>Origine : Antérieur à 1825 Matsumura à Shuri – Tomari.</p>
+          <p>Description : « Le cheval de fer » ou kata du « Champ de Bataille ».
 
               Maître Anko Itosu serait, comme pour Bassaï, à l’origine de ce Kata. Il s’articule autour de la position Naihanshi dachi, les enchaînements sont puissants et de faible amplitude. Naihanshi était le Kata favori de maître Motobu, qui l’a modifié avec Funakoshi. Gichin Funakoshi (fondateur du style Shotokan) a renommé ce Kata « Tekki », signifiant « Cavalier de fer ». Il pourrait s’agir de technique de combat à cheval, on peut également imaginer un combat dos au mur. Plusieurs formes de ce kata sont enseignées dans les écoles Shotokan et Shito-Ryu.</p>
         </section>
       </div>
-      <center><iframe width="560" height="315" src="https://www.youtube.com/embed/9eABq7mJS40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      <center><iframe width="560" height="315" src="https://www.youtube.com/embed/CvGH6aZs4oY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
       <br>
       <br>
       <br>
