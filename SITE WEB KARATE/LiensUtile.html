@@ -6,24 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
     <!--CSS-->
-    <!-- BOOTDTRAP 4.3.1 -->
-    <!-- <link rel="stylesheet" href="../SITE WEB KARATE/bootstrap-4.3.1/css/bootstrap.css"> -->
-    <link rel="stylesheet" href="../SITE WEB KARATE/bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../SITE WEB KARATE/bootstrap-4.3.1/css/bootstrap.css">
     <link rel="stylesheet" href="../SITE WEB KARATE/asset/app.css">
-    <link rel="stylesheet" href="../SITE WEB KARATE/asset/info.css">
     <!--JS-->
-    <!-- BOOTDTRAP 4.3.1 -->
-    <!-- <script async src="../SITE WEB KARATE/bootstrap-4.3.1/js/bootstrap.js"></script> -->
-    <script async src="../SITE WEB KARATE/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+    <script async src="../SITE WEB KARATE/bootstrap-4.3.1/js/bootstrap.js"></script>
     <script async src="../SITE WEB KARATE/asset/app.js"></script>
-    <title>Horaires & Tarifs</title>
+    <link rel="stylesheet" type="text/css" href="asset/Accueil.css">
+    <title>Liens Utiles</title>
 </head>
 <body>
     <header>
-        <h1 style="text-align: center; font-size: 2vw;"><img id="logo" src="../SITE WEB KARATE/asset/img/Logo USMBM Wado Kan.jpg" alt="logo usmb wado-kan" width="42" height="42">USMBM Wado-Kan (Karaté Montsoult, Baillet-en-France, Maffliers)<img id="logo" src="../SITE WEB KARATE/asset/img/Logo USMBM Wado Kan.jpg" alt="logo usmb wado-kan" width="42" height="42"></h1>
+        <h1 style="text-align: center; font-size: 2vw;">
+            <img id="logo" src="../SITE WEB KARATE/asset/img/Logo USMBM Wado Kan.jpg" alt="logo USMBM wado-kan" width="42" height="42">
+            <img id="logo2" src="../SITE WEB KARATE/asset/img/logo-usmbm-karate.png" alt="logo USMBM karate" width="42" height="42">
+            USMBM Wado-Kan (Karaté Montsoult, Baillet-en-France, Maffliers)
+            <a href="https://www.facebook.com/KarateMontsoult">
+                <img id="logoFacebook" src="../SITE WEB KARATE/asset/img/facebook.png" alt="logo facebook depuis flaticon.com" width="42" height="42">
+            </a>
+        </h1>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary" class="back-color" data-toggle="sticky-onscroll">
             <!--Important pour le responsive-->
-            <a class="navbar-brand" href="../SITE WEB KARATE/accueil.html">Accueil</a>
+            <a class="navbar-brand" href="../SITE WEB KARATE/accueil.html">Acceuil</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDD" aria-controls="navbarDD" aria-expanded="false" aria-label="Navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,7 +37,7 @@
                             A propos
                         </a>
                         <ul class="dropdown-menu bg-primary">
-                            <li><a class="dropdown-item sous-aprop-hover" href="#">Histoire du Club</a></li>
+                            <li><a class="dropdown-item sous-aprop-hover" href="../SITE WEB KARATE/HistoireClub.html">Histoire du Club</a></li>
                             <li><a class="dropdown-item sous-aprop-hover" href="../SITE WEB KARATE/Senseis.html">Equipe pédagogique</a></li>
                             <li><a class="dropdown-item sous-aprop-hover" href="../SITE WEB KARATE/LabelCancer.html">Labels</a></li>
                         </ul>
@@ -126,6 +129,9 @@
                         <a class="nav-link" id="galerie-hover" href="../SITE WEB KARATE/galerie.html">Galerie<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" id="lien-utile-hover" href="../SITE WEB KARATE/LiensUtile.html">Liens Utiles<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" id="contact-hover" href="../SITE WEB KARATE/Apropos.html">Contact<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
@@ -133,28 +139,32 @@
         </nav>
     </header>
     <main>
-      <center><img id="image-tarif" src="../SITE WEB KARATE/asset/img/HorairesTarifs.PNG" alt="HorairesTarifs karaté montsoult"></center>
-      
-      <br>
-      <br>
-      <div class="info">
-        <p><strong>A noter : </strong>Cours Spécial Compétiteurs Combat tous les jeudis de 18h45 à 20h.</p>
-        <p>Partenariat permettant d'accéder aux cours competitions des clubs :</p>
-        <li>Domont (Mercredi 19h00 - 20h30)</li>
-      </div>
+        <div class="colonne">
+            <p>Vous pourrez retrouver ci-dessous plusieurs liens utiles pour devenir de meilleurs karatéka :</p>
+            <a href="http://sites.ffkarate.fr/valdoise/" class="btn btn-success btn-lg">CDK Val d'Oise</a>
+            <br>
+            <br>
+            <a href="https://www.ffkarate.fr/" class="btn btn-primary btn-lg">FFK</a>
+            <br>
+            <br>
+            <a href="http://wikf.fr/" class="btn btn-danger btn-lg">WIKF France</a>
+            <br>
+            <br>
+            <a href="http://wikf.com/" class="btn btn-warning btn-lg">WIKF International</a>
+        </div>
     </main>
     <footer>
-      <p id="footer-clubname" >USMBM Wado-Kan (Karaté Montsoult, Baillet-en-France, Maffliers)</p>
-      <p id="footer-address" >18 rue de Pontoise sous sol de la salle polyvalente</p>
-      
-      <a href="tel:+33 6 61 59 01 80">06 61 59 01 80</a>
-      <br>
-      <a href="mailto:karate.montsoult@gmail.com">karate.montsoult@gmail.com</a>
-      <br>
-      <br>
-      <div class="footer-copyright text-center py-3">
-        © 2019 USMBM Wado-Kan: Tous droit réservés.
-      </div>
-    </footer>
+        <p id="footer-clubname" >USMBM Wado-Kan (Karaté Montsoult, Baillet-en-France, Maffliers)</p>
+        <p id="footer-address" >18 rue de Pontoise sous sol de la salle polyvalente</p>
+        
+        <a href="tel:+33 6 61 59 01 80">06 61 59 01 80</a>
+        <br>
+        <a href="mailto:karate.montsoult@gmail.com">karate.montsoult@gmail.com</a>
+        <br>
+        <br>
+        <div class="footer-copyright text-center py-3">
+          © 2019 USMBM Wado-Kan: Tous droit réservés.
+        </div>
+      </footer>
 </body>
 </html>

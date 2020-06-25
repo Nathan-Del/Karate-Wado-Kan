@@ -134,6 +134,7 @@ section .section-title {
 
 .card-text{
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .mt-4, .my-4 {
