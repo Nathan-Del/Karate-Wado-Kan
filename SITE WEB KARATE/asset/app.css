@@ -144,7 +144,7 @@ footer{
 
 
 @media only screen and (max-width: 1635px){
-    h5{
+    .titre-img{
         display: none;
     }
 }
