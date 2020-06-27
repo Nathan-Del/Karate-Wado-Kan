@@ -12,6 +12,8 @@
     padding: 16px;
 }
 
+/*Police d'écriture*/
+
 
 .navbar-dark .navbar-nav .nav-link{
     color: white;
@@ -135,7 +137,7 @@ footer{
     background-color: #28364a;
     color: #EFEFEF;
 }
-
+ 
 /*Hover focus nav secondaire*/
 .dropdown-item:focus{
     background-color: #28364a;
