@@ -145,7 +145,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 1635px){
+/* @media only screen and (max-width: 1635px){
     .titre-img{
         display: none;
     }
@@ -155,7 +155,7 @@ footer{
     .sous-titre_img{
         display: none;
     }
-}
+} */
 
 /*List hover, id pour chaque taille de mot de la Nav
 Lors du passage en mode mobile*/
