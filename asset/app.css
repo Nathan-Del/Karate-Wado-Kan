@@ -12,6 +12,8 @@
     padding: 16px;
 }
 
+/*Police d'écriture*/
+
 
 .navbar-dark .navbar-nav .nav-link{
     color: white;
@@ -135,7 +137,7 @@ footer{
     background-color: #28364a;
     color: #EFEFEF;
 }
-
+ 
 /*Hover focus nav secondaire*/
 .dropdown-item:focus{
     background-color: #28364a;
@@ -143,8 +145,8 @@ footer{
 }
 
 
-@media only screen and (max-width: 1635px){
-    h5{
+/* @media only screen and (max-width: 1635px){
+    .titre-img{
         display: none;
     }
 }
@@ -153,7 +155,7 @@ footer{
     .sous-titre_img{
         display: none;
     }
-}
+} */
 
 /*List hover, id pour chaque taille de mot de la Nav
 Lors du passage en mode mobile*/
