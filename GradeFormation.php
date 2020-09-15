@@ -28,7 +28,7 @@
             <a href="https://www.ffkarate.fr/espace-licencies/grades/documents-et-formulaires/" class="btn btn-success btn-lg">Grades</a>
         </div>
         <div class="colonne formation">
-            <p>Consultr toutes les formations de la fédération française de karaté ici :</p>
+            <p>Consulter toutes les formations de la fédération française de karaté ici :</p>
             <a href="https://www.ffkarate.fr/espace-licencies/formations/" class="btn btn-info btn-lg">Formations</a>
         </div>
     </main>

@@ -48,13 +48,12 @@
                                     <div class="card-body text-center mt-4">
                                         <h4 class="card-title">Président du Club</h4>
                                         <br>
+                                        <!-- <p class="card-text">Professeur</p> -->
+                                        <h5 class="card-text">Professeur</h5>
+                                        <p class="card-text">Arbitre WIKF (Wado International Karate-do Fédération)</p>
+                                        <br>
                                         <p class="card-text">Jury d'examen 1er, 2e, 3e et 4e DAN</p>
                                         <p class="card-text">Arbitre National FFK</p>
-                                        <br>
-                                        <p class="card-text">Arbitre WIKF (Wado Inter Karate-do Fédération)</p>
-                                        <p class="card-text">Professeur</p>
-                                        <br>
-                                        <p class="card-text">Wado International</p>
                                     </div>
                                 </div>
                             </div>
@@ -81,11 +80,11 @@
                                     <div class="card-body text-center mt-4">
                                         <h4 class="card-title">Sensei</h4>
                                         <br>
+                                        <h5 class="card-text">Professeur Baby, Enfants, Ados, Adultes, Santé</h5>
+                                        <br>
                                         <p class="card-text">Jury d'examen 1er, 2e, 3e et 4e DAN</p>
                                         <br>
                                         <p class="card-text">Internationale WIKF (Wado Inter Karate-do Fédération)</p>
-                                        <br>
-                                        <p class="card-text">Professeur Baby, Enfants, Ados, Adultes, Santé</p>
                                         <p></p>
                                     </div>
                                 </div>
@@ -111,9 +110,9 @@
                             <div class="backside">
                                 <div class="card">
                                     <div class="card-body text-center mt-4">
-                                        <h4 class="card-title back-center-title">Conseiller technique du Val d'Oise</h4>
+                                        <h4 class="card-title back-center-title">Entraineur combat</h4>
                                         <br>
-                                        <p class="card-text">Entraineur combat</p>
+                                        <p class="card-text">Conseiller technique du Val d'Oise</p>
                                     </div>
                                 </div>
                             </div>

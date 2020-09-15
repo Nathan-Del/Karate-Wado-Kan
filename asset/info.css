@@ -13,6 +13,20 @@
   border-radius: 3.35rem;
 }
 
+.info-pdf-link{
+  display: none;
+}
+
+@media only screen and (max-width: 1064px){
+  .info-pdf{
+    display: none;
+  }
+  .info-pdf-link{
+    display: block;
+  }
+}
+
+
 /*Lors du passage en mode mobile*/
 /*La taille en px correspond a la taille des carractère*/
 @media only screen and (max-width: 555px){
