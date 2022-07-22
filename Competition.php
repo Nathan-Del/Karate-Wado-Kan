@@ -13,6 +13,7 @@
     <script async src="..//bootstrap-4.4.1-dist/js/bootstrap.js"></script>
     <script async src="..//asset/app.js"></script>
     <!-- <link rel="stylesheet" type="text/css" href="asset/Accueil.css"> -->
+    <link rel="icon" type="image/png" href="../asset/img/icon-web-address.png" />
     <title>Compétitions</title>
     <meta name="description" content="Vous trouverez sur cette page les résultats de nos karatékas."/>
 </head>

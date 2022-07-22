@@ -16,6 +16,7 @@
     <!-- <script async src="../bootstrap-4.3.1/js/bootstrap.js"></script> -->
     <script async src="../bootstrap-4.4.1-dist/js/bootstrap.js"></script>
     <script async src="../asset/app.js"></script>
+    <link rel="icon" type="image/png" href="../asset/img/icon-web-address.png" />
     <title>Code Moral</title>
     <meta name="description" content="Tout bon karatéka possède un code d'honneur, vous trouverez ici nos neuf principes : l'honneur, la fidélité, la sincérité, le courage, la bonté, la modestie, la droiture, le respect et le contrôle de soi."/>
 </head>

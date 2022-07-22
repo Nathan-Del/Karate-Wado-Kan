@@ -16,6 +16,7 @@
     <!-- <script async src="../bootstrap-4.3.1/js/bootstrap.js"></script> -->
     <script async src="../bootstrap-4.4.1-dist/js/bootstrap.js"></script>
     <script async src="../asset/app.js"></script>
+    <link rel="icon" type="image/png" href="../asset/img/icon-web-address.png" />
     <title>Label Santé</title>
     <meta name="description" content="Certains de nos professeurs sont diplomés avec des spécialités qui leurs permettes de dispensé des cours de karatés spécialisé avec les labels Cancer, Santé et Baby."/>
 </head>
@@ -55,7 +56,11 @@
           <br>
           <br>
           <p>Professeurs formés par : </p>
-          <center><img class="logo-label" src="../asset/img/cdos_karate.png" alt="cdos karate"></center>
+          <br>
+          <br>
+          <br>
+          <br>
+          <center><img class="logo-label" src="../asset/img/cdos_karate2.png" alt="cdos karate"></center>
         </section>
       </section>
     </main>

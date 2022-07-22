@@ -17,6 +17,7 @@
     <script async src="..//bootstrap-4.4.1-dist/js/bootstrap.js"></script>
     <script async src="..//asset/app.js"></script>
     <script async src="..//asset/onglet.js" ></script>    
+    <link rel="icon" type="image/png" href="../asset/img/icon-web-address.png" />
     <title>Glossaire</title>
     <meta name="description" content="Retrouvez ici le vocabulaire du karaté wado-ryu, qui sont regroupé en différentes catégories : Nombres, Positions, Déplacements, Techniques de Blocage, Attaque Directes, Techniques de Percussion et Techniques de Pieds."/>
 </head>

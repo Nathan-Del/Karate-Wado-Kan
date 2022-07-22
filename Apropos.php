@@ -17,6 +17,7 @@
     <script async src="..//bootstrap-4.4.1-dist/js/bootstrap.js"></script>
     <script async src="..//asset/app.js"></script>
     <title>Contact</title>
+    <link rel="icon" type="image/png" href="../asset/img/icon-web-address.png" />
     <meta name="description" content="Lieu : Dojo situé au sous sol de la salle polyvalente 'Les Tilleuls' - 18 rue de Pontoise. Si vous avez des questions vous pouvez nous contacté avce les coordonnés suivantes: 
     mail: karate.montsoult@gmail.com  ou par téléphone  
     Télephone: +33 6 61 59 01 80"/>

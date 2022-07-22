@@ -12,6 +12,7 @@
     <!-- <script async src="..//bootstrap-4.3.1/js/bootstrap.js"></script> -->
     <script async src="..//bootstrap-4.4.1-dist/js/bootstrap.js"></script>
     <script async src="..//asset/app.js"></script>
+    <link rel="icon" type="image/png" href="../asset/img/icon-web-address.png" />
     <title>Histoire du Club</title>
     <meta name="description" content="Vous retrouverez sur cette page l'histoire du karaté Wado Ryu ainsi que l'histoire de notre club l'USMBM."/>
 </head>

@@ -16,6 +16,7 @@
     <!-- <script async src="..//bootstrap-4.3.1/js/bootstrap.js"></script> -->
     <script async src="..//bootstrap-4.4.1-dist/js/bootstrap.js"></script>
     <script async src="..//asset/app.js"></script>
+    <link rel="icon" type="image/png" href="../asset/img/icon-web-address.png" />
     <title>Horaires & Tarifs</title>
     <meta name="description" content="Lieu : Dojo situé au sous sol de la salle polyvalente 'Les Tilleuls' - 18 rue de Pontoise. Pour les horaires veuillez consulté le tableau sur cette page pour connaître l'heure de votre cours en fonction de votre age."/>
 </head>
@@ -27,9 +28,9 @@
       <!-- <center><img id="image-tarif" src="..//asset/img/HorairesTarifs.PNG" alt="HorairesTarifs karaté montsoult"></center> -->
       <!-- <p>Ouvrir un fichier PDF  <a href="asset/img/Horaires & tarifs 2020-2021.pdf">exemple</a>.</p> -->
       <center>
-        <iframe class="info-pdf" src="asset/img/Horaires & tarifs 2020-2021.pdf" width="80%" height="800px">
+        <iframe class="info-pdf" src="asset/img/Horaires & tarifs 2021-2022.pdf" width="80%" height="800px">
         </iframe>
-        <p class="info-pdf-link" >Pour consulter la fiche horaire, cliquez ici : <a href="asset/img/Horaires & tarifs 2020-2021.pdf" class="btn btn-danger btn-lg" >PDF</a></p>
+        <p class="info-pdf-link" >Pour consulter la fiche horaire, cliquez ici : <a href="asset/img/Horaires & tarifs 2022-2023.pdf" class="btn btn-danger btn-lg" >PDF</a></p>
     </center>
       
       <br>

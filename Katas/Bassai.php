@@ -17,6 +17,7 @@
     <!-- <script async src="../bootstrap-4.3.1/js/bootstrap.js"></script> -->
     <script async src="../bootstrap-4.4.1-dist/js/bootstrap.js"></script>
     <script async src="../asset/app.js"></script>
+    <link rel="icon" type="image/png" href="../asset/img/icon-web-address.png" />
     <title>Bassai</title>
 </head>
 <body>

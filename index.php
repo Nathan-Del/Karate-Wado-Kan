@@ -14,8 +14,18 @@
     <script async src="../bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
     <!-- <script async src="../bootstrap-4.4.1-dist/js/bootstrap.js"></script> -->
     <script async src="../asset/app.js"></script>
+    <link rel="icon" type="image/png" href="../asset/img/icon-web-address.png" />
     <title>Accueil</title>
     <meta name="description" content="USMBM Wado-Kan vous propose de pratiqué le Karaté traditionnel, le Karaté mix/contact, le body karaté, le karaté compétition, le baby karaté, le karaté santé ainsi que le karaté après cancer."/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M53KPWBT4T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M53KPWBT4T');
+    </script>
 </head>
 <body>
     <header>
@@ -149,7 +159,7 @@
                         <li>Un enfant sera accompagné d’une seule personne,</li>
                         <li>Le dojo sera accessible aux seuls adhérents dont le cours débutera. Les parents sont invités à patienter à l’extérieur de la salle d’entrainement (pas dans le sas),</li>
                         <li>Les chaussures devront être retirées dans le sas, et placées dans le sac de sport du pratiquant (prévoir un sac plastique pour les stocker),</li>
-                        <li>•Avant d’entrer dans le dojo, les mains et les pieds de chaque pratiquant <p style="font-weight: bold; display:inline-block; margin-bottom: auto;">devront être nettoyés et désinfectés</p>,</li>
+                        <li>Avant d’entrer dans le dojo, les mains et les pieds de chaque pratiquant <p style="font-weight: bold; display:inline-block; margin-bottom: auto;">devront être nettoyés et désinfectés</p>,</li>
                         <li>Chaque adhérent déposera son sac au bord du tatami de façon à y avoir accès durant le cours, sans en sortir.</li>
                     </ul>
                 </div>

@@ -16,6 +16,7 @@
     <!-- <script async src="../bootstrap-4.3.1/js/bootstrap.js"></script> -->
     <script async src="../bootstrap-4.4.1-dist/js/bootstrap.js"></script>
     <script async src="../asset/app.js"></script>
+    <link rel="icon" type="image/png" href="../asset/img/icon-web-address.png" />
     <title>Label Baby</title>
     <meta name="description" content="Certains de nos professeurs sont diplomés avec des spécialités qui leurs permettes de dispensé des cours de karatés spécialisé avec les labels Cancer, Santé et Baby."/>
 </head>
@@ -51,7 +52,7 @@
             Les parents sont invités à attendre leur petit karatéka à l’extérieur de la salle d’entrainement durant les 45 minutes de séance et de leur donner une petite bouteille d’eau.             
             <br>
           </p>
-          <center><img id="doudou" src="../asset/img/doudou_karate.png" alt="doudou"></center>
+          <center><img id="doudou" src="../asset/img/doudou_karate.png" alt="doudou BabyNat Lapin Malow"></center>
           
           <p>Eventuellement, Doudou peut être glissé dans son sac. Néanmoins, les tétines, biberons, couche-culotte… n’ont pas leur place sur le tatami.</p>
           <p>Le professeur, ou son assistant référent, vous tiendront informés de l’évolution de votre petit. Vous pourrez, même, de temps à autres, être invités à participer aux séances. Mais gare à vous, votre bout de chou va rapidement devenir un(e) petit(e) ninja… !!!

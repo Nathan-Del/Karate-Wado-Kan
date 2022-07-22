@@ -16,6 +16,7 @@
     <!-- <script async src="../bootstrap-4.3.1/js/bootstrap.js"></script> -->
     <script async src="../bootstrap-4.4.1-dist/js/bootstrap.js"></script>
     <script async src="../asset/app.js"></script>
+    <link rel="icon" type="image/png" href="../asset/img/icon-web-address.png" />
     <title>Senseis</title>
     <meta name="description" content="Voici notre équipe pédagogique qui sont des professeurs diplomés. De plus chacun est susceptible d'intervenir dans n'importe quel cours que nous proposons."/>
 </head>
@@ -70,7 +71,7 @@
                                     <div class="card-body text-center">
                                         <p><img class=" img-fluid" src="../asset/img/senseis_icons-celine.jpg" alt="Céline Dugauquier"></p>
                                         <h4 class="card-title">Céline DUGAUQUIER</h4>
-                                        <p class="card-text">Ceinture Noire 5e DAN - DESJEPS - BEESAPT</p>
+                                        <p class="card-text">Ceinture Noire 6e DAN - DESJEPS - BEESAPT</p>
                                         <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share"></i></a>
                                     </div>
                                 </div>
@@ -207,31 +208,6 @@
                                         <p><img class=" img-fluid" src="../asset/img/Quentin Randon.jpg" alt="Quentin Randon"></p>
                                         <h4 class="card-title">Quentin RANDON</h4>
                                         <p class="card-text">Ceinture Noire 2e DAN - Diplôme d'Animateur Fédéral</p>
-                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <div class="card-body text-center mt-4">
-                                        <h4 class="card-title back-center-title">Animateur Féderal</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ./Team member -->
-                <!-- Team member -->
-                <div class="col-xs-12 col-sm-6 col-md-4 team-block">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card">
-                                    <div class="card-body text-center">
-                                        <p><img class=" img-fluid" src="../asset/img/ninja.png" alt="Icon d'un ninja, source Flaticon.com"></p>
-                                        <h4 class="card-title">Maxime ZANKO</h4>
-                                        <p class="card-text">Ceinture Noire 1er DAN - Diplôme d'Animateur Fédéral</p>
                                         <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share"></i></a>
                                     </div>
                                 </div>
