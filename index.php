@@ -42,6 +42,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -86,7 +87,7 @@
                          <p class="sous-titre_img">À partir de 3 ans, basé sur de la motricité globale à travers un éveil au karaté ludique (Club labellisé Baby Karaté par la FFK).</p>
                      </div>
                 </div>
-                 <div class="carousel-item">
+                <div class="carousel-item">
                     <a href="../LabelCancer.php">
                         <img class="d-block w-100" src="..//asset/img/carousel6.png" alt="Second slide">
                     </a>
@@ -94,9 +95,17 @@
                          <p class="sous-titre_img"></p>
                      </div>
                 </div>
-                 <div class="carousel-item">
+                <div class="carousel-item">
                     <a href="../LabelSante.php">
                         <img class="d-block w-100" src="..//asset/img/carousel7.png" alt="Second slide">
+                    </a>
+                    <div class="carousel-caption d-none d-md-block">
+                         <p class="sous-titre_img"></p>
+                     </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="#">
+                        <img class="d-block w-100" src="..//asset/img/carousel8.png" alt="Second slide">
                     </a>
                     <div class="carousel-caption d-none d-md-block">
                          <p class="sous-titre_img"></p>
@@ -115,97 +124,83 @@
         <br>
         <br>
         <br>
-        <h2 style="text-align: center; font-weight: bold; color: red;">⚠️ Informations COVID-19</h2>
+        <h3 style="text-align: center;">Au sein de la section karaté nous vous proposons un large choix de cours adaptés à tous : </h3>
         <br>
-        <p style="text-align: center;">Vous l’aurez compris, cette rentrée sportive sera particulière puisque placée sous le signe "Mesures COVID-19". Aussi, pour la santé et la sécurité de tous, notre section, avec la FFK et les différentes communes, a mis en place un protocole sanitaire strict que chacun se devra de <strong> respecter scrupuleusement</strong>.</p>
-        <div class="container">
+        <div class="container karate-section">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
                     <h4 style="font-style:italic; font-weight: bold">
-                    À l’inscription :
+                    Le baby karaté :
                     </h4>
                     <ul>
-                        <li>Tout adhérent se doit de fournir son dossier d’inscription complet. (Merci de privilégier le forum des associations pour finaliser votre dossier afin de limiter les passages au Dojo).</li>
-                        <li>Aucun adhérent ne sera admis au Dojo sans son dossier complet.</li>
+                        <li>Il peut ce pratiquer à partir de 3 ans, basé sur de la motricité globale à travers un éveil au karaté ludique (Club labellisé Baby Karaté par la FFK).</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container karate-section">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
                     <h4 style="font-style:italic; font-weight: bold">
-                    Avant l’entrainement :
+                    Le karaté traditionnel :
                     </h4>
                     <ul>
-                        <li>Chaque adhérent prépare son sac de sport dans lequel se trouvent : sa bouteille d’eau (facile à ouvrir pour les plus jeunes), une serviette éponge, du gel hydroalcoolique, un paquet de mouchoirs à usage unique, ses gants de karaté, ses protections personnelles => il n’y aura aucun prêt de matériel,</li>
-                        <li>L’adhérent revêt son karatégi propre et repassé, chez lui, par-dessus lequel il a mis son survêtement pour se rendre à l’entrainement (Attention ! Les vestiaires resteront fermés),</li>
-                        <li>Les parents s’assurent que les plus jeunes sont passés aux toilettes avant leur arrivée</li>
-                        <li>Tout adhérent qui présente des symptômes tels que, fièvre, nez qui coule, mal de gorge, mal de ventre, diarrhée, perte de goût… est invité à ne pas se présenter à l’entraînement,</li>
-                        <li>Le pratiquant se présente aux cours, propre, les ongles de pieds et de mains propres et coupés, les cheveux propres et attachés.</li>
+                        <li>Il est fait pour tous, des plus jeunes aux séniors en quête d’un art martial à la fois complet et efficace, basé sur l’esquive, le respect de soi et de l’autre.</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container karate-section">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
                     <h4 style="font-style:italic; font-weight: bold">
-                    À l’arrivée au Dojo : 
+                    Le karaté compétition : 
                     </h4>
                     <ul>
-                        <li>Le port du masque est obligatoire, à partir de 11 ans, et vivement conseillé pour les plus jeunes, dès l’arrivée sur le parking,</li>
-                        <li>Le sas d’entrée à la salle d’entrainement devra être un lieu de passage rapide. Les parents, enfants, … devront attendre à l’extérieur du sas,</li>
-                        <li>Un enfant sera accompagné d’une seule personne,</li>
-                        <li>Le dojo sera accessible aux seuls adhérents dont le cours débutera. Les parents sont invités à patienter à l’extérieur de la salle d’entrainement (pas dans le sas),</li>
-                        <li>Les chaussures devront être retirées dans le sas, et placées dans le sac de sport du pratiquant (prévoir un sac plastique pour les stocker),</li>
-                        <li>Avant d’entrer dans le dojo, les mains et les pieds de chaque pratiquant <p style="font-weight: bold; display:inline-block; margin-bottom: auto;">devront être nettoyés et désinfectés</p>,</li>
-                        <li>Chaque adhérent déposera son sac au bord du tatami de façon à y avoir accès durant le cours, sans en sortir.</li>
+                        <li>Pour les plus fougueux qui aiment se mesurer aux autres et à eux-mêmes, nous vous proposons cette discipline qui comprend le kata et le combat.</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container karate-section">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
                     <h4 style="font-style:italic; font-weight: bold">
-                    Durant les cours : 
+                    Le karaté mix/contact : 
                     </h4>
                     <ul>
-                        <li>Avant de se positionner pour le salut, les pratiquants déposeront leur masque dans leur sac,</li>
-                        <li>Bien que les sports de contact soient autorisés, les pratiquants veilleront à respecter une distance d’au moins 1 mètre les uns des autres, surtout en dehors des exercices,</li>
-                        <li>Régulièrement, les pratiquants seront invités à se laver les mains au gel hydroalcoolique,</li>
-                        <li>Pour les enseignants, le port du masque sera privilégié,</li>
-                        <li>Le matériel à usage collectif sera limité à un positionnement au sol que le pratiquant ne devra pas manipuler.</li>
+                        <li>La synthèse des arts martiaux. Pour les pratiquants qui souhaitent réunir les composantes de percussions debout, projections, immobilisations et soumissions.</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container karate-section">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
                     <h4 style="font-style:italic; font-weight: bold">
-                    Après le cours :  
+                    Le body karaté :  
                     </h4>
                     <ul>
-                        <li>Après le salut, le pratiquant récupérera son sac et sortira du tatami par le "côté fenêtres » de la salle,</li>
-                        <li>Le pratiquant quittera l’enceinte sportive immédiatement après son cours.</li>
+                        <li>Pour celles et ceux qui recherchent un moment de défoulement et de remise en forme en musique. Pour les Kids, association de mouvements d’arts martiaux chorégraphiés sur des rythmes musicaux endiablés !</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container karate-section">
             <div class="row">
                 <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
                     <h4 style="font-style:italic; font-weight: bold">
-                    De retour à la maison : 
+                    Karaté Adapté Séniors : 
                     </h4>
                     <ul>
-                        <li>Chaque pratiquant ou le parent pour les plus jeunes, portera une attention très particulière à sa propre hygiène, ainsi qu'au soin et à l’entretien de son équipement (le karatégi devra être lavé après chaque entrainement (pas de lavage à 60 degrés pour ne pas l’abimer) et repassé, les protections devront être désinfectées et séchées…).</li>
+                        <li>Il permet, par des mouvements souples et lents, d’améliorer ses capacités fonctionnelles, sa mémoire, son équilibre, sa coordination, tout en retrouvant une énergie générale, à la fois du corps et de l’esprit. Pratique principalement adaptée aux séniors, mais aussi à toute personne désireuse de s’accomplir dans un art martial sans affrontement.</li>
                     </ul>
                 </div>
             </div>
         </div>
+        <br>
+        <p style="text-align: center;">Ainsi, chacun évolue au rythme de ses capacités et de ses envies. <br> 
+        Hommes, femmes, très jeunes, moins jeunes, débutants, confirmés, introvertis, fougueux… le karaté est un art martial adapté à tous.</p>
         <script type="text/javascript" src="asset/Accueil.js"></script>
     </main>
     <footer>
