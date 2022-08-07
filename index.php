@@ -133,7 +133,7 @@
                     Le baby karaté :
                     </h4>
                     <ul>
-                        <li>Il peut ce pratiquer à partir de 3 ans, basé sur de la motricité globale à travers un éveil au karaté ludique (Club labellisé Baby Karaté par la FFK).</li>
+                        <li>Il peut se pratiquer à partir de 3 ans, basé sur de la motricité globale à travers un éveil au karaté ludique (Club labellisé Baby Karaté par la FFK).</li>
                     </ul>
                 </div>
             </div>
