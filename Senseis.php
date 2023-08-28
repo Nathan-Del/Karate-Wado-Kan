@@ -130,7 +130,7 @@
                                     <div class="card-body text-center">
                                         <p><img class=" img-fluid" src="../asset/img/senseis_icons-guy.jpg" alt="Guy Bruchet"></p>
                                         <h4 class="card-title">Guy BRUCHET</h4>
-                                        <p class="card-text">Ceinture Noire 4e DAN - Instructeur Fédéral</p>
+                                        <p class="card-text">Ceinture Noire 5e DAN - Instructeur Fédéral</p>
                                         <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-share"></i></a>
                                     </div>
                                 </div>

@@ -28,9 +28,9 @@
       <!-- <center><img id="image-tarif" src="..//asset/img/HorairesTarifs.PNG" alt="HorairesTarifs karaté montsoult"></center> -->
       <!-- <p>Ouvrir un fichier PDF  <a href="asset/img/Horaires & tarifs 2020-2021.pdf">exemple</a>.</p> -->
       <center>
-        <iframe class="info-pdf" src="asset/img/Horaires & tarifs 2022-2023.pdf" width="80%" height="800px">
+        <iframe class="info-pdf" src="asset/img/Horaires & tarifs 2023-2024.pdf" width="80%" height="800px">
         </iframe>
-        <p class="info-pdf-link" >Pour consulter la fiche horaire, cliquez ici : <a href="asset/img/Horaires & tarifs 2022-2023.pdf" class="btn btn-danger btn-lg" >PDF</a></p>
+        <p class="info-pdf-link" >Pour consulter la fiche horaire, cliquez ici : <a href="asset/img/Horaires & tarifs 2023-2024.pdf" class="btn btn-danger btn-lg" >PDF</a></p>
     </center>
       
       <br>
